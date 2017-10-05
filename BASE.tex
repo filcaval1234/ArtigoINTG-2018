@@ -31,13 +31,23 @@ Nos últimos anos, SystemVerilog e SystemC estão sendo extensivamente usadas pa
 
 Umas das principais fontes de informações em um código fonte é o vocabulário do mesmo. O vocabulário também denominado de léxico do código em \cite{Host2007}, \cite{Antoniol2007} e \cite{Santos2009}, consiste no conjunto de termos repetidos ou únicos que compõem identificadores e que estão presentes no textos dos comentários\cite{Abebe2009}.
 
-Usando os princípios da engenharia reversa como uma coleção de metodologias e técnicas capazes de realizar a extração e abstração de informações\cite{BENEDUSI1992225} e \cite{Santos2009}, propõe-se neste trabalho a extração do vocabulário pertencentes a projetos de hardware descritos em SystemVerilog e usando a definição formal de Santos em \cite{santos2015} sobre vocabulário de software para embasar e fundamentar o termo \textit{Hardware Vocabulary}. 
+Usando os princípios da engenharia reversa como uma coleção de metodologias e técnicas capazes de realizar a extração e abstração de informações\cite{BENEDUSI1992225} e \cite{Santos2009}, propõe-se neste trabalho a extração do vocabulário pertencentes a projetos de hardware descritos em SystemVerilog e usando a definição formal de Santos em \cite{Santos2015} sobre vocabulário de software para embasar e fundamentar o termo \textit{Hardware Vocabulary}. 
 
 	\section{Background}
 \quad Graças aos atuais projetos eletrônicos baseado em HDL, metodologias e ferramentas para simulação, síntese, verificação, modelagem física e teste pós-fabricação agora estão bem inseridos e são essenciais para designers digitais \cite{Navabi2015}. Nos últimos anos as linguagens de descrição e verificação de hardware tornaram-se tão importantes para a modelagem de sistemas digitais, quanto as linguagens de programação o são para a engenharia de software. 
 	
-	\subsection{Vocabulário de Software}
-\quad Santos, em \cite{Santos2009} define que vocabulário de código fonte compreende as cadeias de caracteres que identificam os elementos estruturais e as palavras que compõem as sentenças dos comentários de um código fonte. No paradigma de programação dominante atualmente OOP (Object-Oriented Programming),
+	\subsection{Software Vocabulary}
+\quad Santos, em \cite{Santos2009} define informalmente que vocabulário de código fonte compreende as cadeias de caracteres que identificam os elementos estruturais e as palavras que compõem as sentenças dos comentários de um código fonte. Dentro dos campos de estudo engenharia de software outro termo bastante conhecido e isomorfo a \textit{Software Vocabulary} é o léxico do código que em \cite{Abebe2009} e \cite{Antoniol2007} são os elementos que nomeiam as entidades estruturais da linguagem além dos comentários escritos em linguagem natural.
+
+ \textit{Software Vocabulary} é um multiconjunto de \textit{Strings}, i.e. uma aplicação $V:$ $\mathbb{S}\rightarrow\mathbb{N}$, que mapeia \textit{Strings} para números naturais. Elementos de um vocabulário são chamados \textit{termos}. Para qualquer termo $t$, $V(t)$ representa o número de ocorrências do termo $t$ no vocabulário $V$. Se $V(t)>0$ dizemos que $t$ é um termo do vocabulário \cite{Santos2015}.
+
+% O lexico de um programa representa um investimento substancial para uma empresa de software, portanto, seu valor deve preservado e aumentado ao longo do tempo, para aproveitar ao máximo seus efeitos benéficos na compreensão do programa.(Antoniol)
+
+No paradigma de programação dominante atualmente OOP (\textit{Object-Oriented Programming}), nomear as entidades (elementos estruturais da linguagem) de forma concisa e representativa além de documenta-las, tem sido mais do que uma boa prática .
+
+ No desenvolvimento de grandes sistemas o léxico ou SV (\textit{Software Vocabulary}) quando condizente ao problema reduz o tempo de manutenção, entendimento do código e encontro de \textit{bugs}. 
+
+O léxico de um programa representa um investimento substancial para uma empresa de software, portanto, sua importância deve preservada e elevada ao longo do tempo, para aproveitar ao máximo seus efeitos e benéficos na compreensão do programa \cite{Antoniol2007}.
 
 	\subsection{O Hardware Como Um Software}
 \quad 
@@ -49,11 +59,12 @@ Usando os princípios da engenharia reversa como uma coleção de metodologias e
 
 As HDLs modernas são fundamentais para o desenvolvimento de sistemas digitais possibilitando suas descrições de forma estrutural, comportamental e nos últimos anos, seguindo conceitos básicos de orientação a objetos, fornecendo assim um mecanismo efetivo para o desenvolvimento de projetos à medida que evoluem da abstração para a realidade.
 
-&--------------RESCREVER ESSA PARADA!!!! DATTEBAYO
-Uma dificuldade em usar HDLs para desenvolver projetos é a natureza pesada da sintaxe HDL. Um HDL descreve um sistema complexo e multifacetado usando uma representação textual unidimensional, o que resulta na ofuscação de muitos aspectos do projeto.
+%--------------RESCREVER ESSA PARADA!!!! DATTEBAYO
+A sintaxe pesada de uma HDL apresenta um problema no desenvolvimento de projetos, pois descreve um sistema complexo e multifacetado por meio de uma representação textual unidimencional, dificultando a abstração de \textit{\textbf{muitos}} aspetos do projeto.
+	\subsection{Hardware Vocabulary} 
 	\section{SystemVerilog Vocabulary Extractor}
-	\section{Resultados e Discussões}
-\quad Afim de calcularmos uma porcentagem de extracão que melhor represente a eficiência do software proposto, foi elaborado um design genérico com todas as estruturas possíveis em SistemVerilog. Os resultados obtidos são apresentados na tabela abaixo:
+	
+	\quad Afim de calcularmos uma porcentagem de extracão que melhor represente a eficiência do software proposto, foi elaborado um design genérico com todas as estruturas possíveis em SistemVerilog. Os resultados obtidos são apresentados na tabela abaixo:
 
 \begin{table}[h]
 \centering
@@ -80,6 +91,7 @@ Uma dificuldade em usar HDLs para desenvolver projetos é a natureza pesada da s
 \quad Os resultados apresentados na tabela acima mostra que ...
 
 	Foram realizados, também, outros testes com hardware \textit{opensource} obtidos em repositórios no Github. Os resultados obtidos estão expostos na tabela abaixo:
+	\section{Resultados e Discussões}
 	
 	\begin{table}[h]
 \centering

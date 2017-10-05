@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  4 OCT 2017 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  5 OCT 2017 13:20
 entering extended mode
 **./BASE.tex
 (BASE.tex
@@ -675,31 +675,49 @@ Underfull \hbox (badness 6758) in paragraph at lines 32--33
 
 
 ]
-Underfull \hbox (badness 1668) in paragraph at lines 42--42
+Underfull \hbox (badness 1077) in paragraph at lines 40--41
+\OT1/cmr/m/n/12 vo-ca-bulario de codigo fonte com-pre-ende
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 46--47
+\OT1/cmr/m/n/12 atu-al-mente OOP (\OT1/cmr/m/it/12 Object-Oriented Pro-
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 48--49
+[]\OT1/cmr/m/n/12 No de-sen-vol-vi-mento de gran-des sis-te-
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 52--52
 []\OT1/cmr/bx/n/14.4 O Hard-ware Como Um
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 50--51
+Underfull \hbox (badness 1142) in paragraph at lines 60--61
 []\OT1/cmr/m/n/12 As HDLs mo-der-nas s~ao fun-da-men-tais
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
 []\OT1/cmr/bx/n/17.28 SystemVerilog Vo-ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 []\OT1/cmr/bx/n/17.28 Resultados e Dis-
  []
 
-(BASE.bbl
+[2] (BASE.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--14
 []\OT1/cmr/m/n/12 G. An-to-niol, Y. G. Gueheneuc,
  []
 
-[2]
+
 Underfull \hbox (badness 1242) in paragraph at lines 28--32
 \OT1/cmr/m/it/12 IEEE In-ter-na-ti-o-nal Wor-king Con-fe-
  []
@@ -729,23 +747,28 @@ Underfull \hbox (badness 1635) in paragraph at lines 77--81
 []\OT1/cmr/m/n/12 S. Suther-land, S. Da-vid-mann, and
  []
 
-) [3] (BASE.aux) ) 
+[3]) [4
+
+] (BASE.aux) ) 
 Here is how much of TeX's memory you used:
- 4072 strings out of 493323
- 52654 string characters out of 3137315
- 234801 words of memory out of 3000000
- 7529 multiletter control sequences out of 15000+200000
- 12443 words of font info for 48 fonts, out of 3000000 for 9000
+ 4075 strings out of 493323
+ 52686 string characters out of 3137315
+ 235801 words of memory out of 3000000
+ 7531 multiletter control sequences out of 15000+200000
+ 12802 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,8n,25p,785b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmr17.
-pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-
-Output written on BASE.pdf (3 pages, 78711 bytes).
+<D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmbxt
+i10.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/No
+va pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Nova p
+asta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Nova pasta
+ (2)/LaTexCompiler/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on BASE.pdf (4 pages, 108602 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
