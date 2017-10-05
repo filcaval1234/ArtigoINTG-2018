@@ -1,0 +1,4 @@
+falar sobre a ast(abstract syntax tree) pelo menos 3 artigos
+falar sobre o desenvolvimento em alto nivel de microeletronica pelo menos 5 artigos
+falar da engenharia de software sobre a extração de código pelo menos o que achar de artigos
+falar sobre a extração sem usar uma ast(abstract syntax tree) algum artigo sobre analise de código

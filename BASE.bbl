@@ -1,0 +1,82 @@
+\begin{thebibliography}{10}
+
+\bibitem{Abebe2009}
+S.~L. Abebe, S.~Haiduc, A.~Marcus, P.~Tonella, and G.~Antoniol.
+\newblock {Analyzing the evolution of the source code vocabulary}.
+\newblock {\em Proceedings of the European Conference on Software Maintenance
+  and Reengineering, CSMR}, pages 189--198, 2009.
+
+\bibitem{Antoniol2007}
+G.~Antoniol, Y.~G. Gu{\'{e}}h{\'{e}}neuc, E.~Merlo, and P.~Tonella.
+\newblock {Mining the lexicon used by programmers during sofware evolution}.
+\newblock {\em IEEE International Conference on Software Maintenance, ICSM},
+  pages 14--23, 2007.
+
+\bibitem{BENEDUSI1992225}
+P.~Benedusi, A.~Cimitile, and U.~D. Carlini.
+\newblock Reverse engineering processes, design document production, and
+  structure charts.
+\newblock {\em Journal of Systems and Software}, 19(3):225 -- 245, 1992.
+
+\bibitem{Hahanov2008}
+V.~Hahanov, D.~Melnik, O.~Zaharchenko, and S.~Zaychenko.
+\newblock {Overview of Object-Oriented Approach to HDL- Testbench Construction
+  for System-on-Chips}.
+\newblock pages 621--625, 2008.
+
+\bibitem{Host2007}
+E.~W. H{\o}st and B.~M. {\O}stvold.
+\newblock {The programmer's lexicon, volume I: The verbs}.
+\newblock {\em SCAM 2007 - Proceedings 7th IEEE International Working
+  Conference on Source Code Analysis and Manipulation}, I:193--202, 2007.
+
+\bibitem{IEEEComputerSociety2013}
+{IEEE Computer Society} and {IEEE Standards Association Corporate Advisory
+  Group}.
+\newblock {IEEE Standard for SystemVerilog–Unified Hardware Design,
+  Specification, and Verification Language}.
+\newblock 2012(February):1315, 2013.
+
+\bibitem{Kumar2014}
+P.~Kumar.
+\newblock {High Level Modeling Of Physical Layer Noise Parameters Using
+  SystemC}.
+\newblock pages 344--347, 2014.
+
+\bibitem{Marc-Andre}
+J.~D. {M. DAIGNEAULT}.
+\newblock {RAISING THE ABSTRACTION LEVEL OF HDL FOR CONTROL-DOMINANT
+  APPLICATIONS Marc-Andre Daigneault and Jean Pierre David Department of
+  Electrical Engineering , Ecole Polytechnique de Montreal}.
+\newblock pages 515--518, 2012.
+
+\bibitem{Miller-Karlow}
+D.~L. Miller-Karlow and E.~J. Golin.
+\newblock {vVHDL: A Visual Hardware Description Language}.
+
+\bibitem{Navabi2015}
+Z.~Navabi.
+\newblock {HDLs Evolve as they Affect Design Methodology for a Higher
+  Abstraction and a Better Integration}.
+\newblock page 4799, 2015.
+
+\bibitem{Santos2009}
+K.~D.~F. Santos.
+\newblock {Webservice De Extra{\c{c}}{\~{a}}o De Vocabul{\'{a}}rio De
+  C{\'{o}}digo Para Pesquisas Emp{\'{i}}ricas Em Engenharia De Software}.
+\newblock 2009.
+
+\bibitem{santos2015}
+K.~D.~F. Santos, D.~D.~S. Guerrero, and J.~C. A.~D. Figueiredo.
+\newblock {Using Developers Contributions on Software Vocabularies to Identify
+  Experts}.
+\newblock {\em Proceedings - 12th International Conference on Information
+  Technology: New Generations, ITNG 2015}, pages 451--456, 2015.
+
+\bibitem{sutherland2006}
+S.~Sutherland, S.~Davidmann, and P.~Flake.
+\newblock {\em {SystemVerilog for Design Second Edition: A Guide to Using
+  SystemVerilog for Hardware Design and Modeling}}.
+\newblock 2006.
+
+\end{thebibliography}

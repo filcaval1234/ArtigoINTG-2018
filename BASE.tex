@@ -1,0 +1,110 @@
+\documentclass[12pt, twocolumn, a4paper]{article}
+\usepackage{multicol, lipsum}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[a4paper, left=3cm, right=2cm, top=3cm, bottom=2cm,
+		headsep=1cm, footskip=2cm]{geometry}
+\usepackage[brazil]{babel}
+
+\begin{document}
+	\title{SystemVerilog Vocabulary Extractor}
+	\author{Filipe C. Cavalcanti\\ Leandro de S. Albuquerque\\
+	Orientador: Tio Kat}
+	\maketitle
+	
+	\section{ABSTRACT}
+	
+	\section{RESUMO}
+	\quad Desde a criação da primeira HDL até os presentes dias, cada vez mais o desenvolvimento de sistemas digitais se assemelha e aproxima-se a codificações de programas descritos em linguagem de programação  
+	
+% Keywords: HDL, SystemVerilog, Software Vocabulary, Hardware Vocabulary,  
+	\section{Introdução}
+\quad Quando Verilog foi criado em meados da decada de 80, o tamanho típicos dos projetos era na ordem de 5 a 10 mil portas lógicas, o método de concepção dos circuitos era usando esquema gráfico, e a simulação estava começando a ser uma ferramenta essencial para verificação\cite{sutherland2006}. A linguagem Verilog continuou a evoluir com a tecnologia de \textit{design} e verificação até que, em 2002 surge SystemVerilog, sendo esta linguagem uma significante melhoria de Verilog\cite{sutherland2006}. A partir disto, Como a complexidade de sistemas digitais modernos continua a aumentar exponencialmente, tem-se que as metodologias de projetos RTL(Register Transfer Level) estão evoluindo também\cite{Marc-Andre} e \cite{Hahanov2008}.
+
+Com tal avanço, elevou-se o nível de abstração no desenvolvimento de hardware por meio de uma linguagem de descrição e verificação de hardware (HDVL), de tal forma que, o uso de ferramentas de análise de informações que antes eram somente do escopo da engenharia de software, poderá contribuir também para o desenvolvimento de sistemas digitais.
+
+Nos últimos anos, SystemVerilog e SystemC estão sendo extensivamente usadas para descrição e verificação na industria VLSI(Very Large Scale Integration)\cite{Kumar2014}. Sendo que ultilizou-se neste trabalho SystemVerilog, que é uma unificação entre, design de hardware, e linguagem de verificação\cite{IEEEComputerSociety2013}, permitindo o uso de uma linguagem unificada para especificações abstratas e detalhadas para projeto e verificação.
+
+Umas das principais fontes de informações em um código fonte é o vocabulário do mesmo. O vocabulário também denominado de léxico do código em \cite{Host2007}, \cite{Antoniol2007} e \cite{Santos2009}, consiste no conjunto de termos repetidos ou únicos que compõem identificadores e que estão presentes no textos dos comentários\cite{Abebe2009}.
+
+Usando os princípios da engenharia reversa como uma coleção de metodologias e técnicas capazes de realizar a extração e abstração de informações\cite{BENEDUSI1992225} e \cite{Santos2009}, propõe-se neste trabalho a extração do vocabulário pertencentes a projetos de hardware descritos em SystemVerilog e usando a definição formal de Santos em \cite{santos2015} sobre vocabulário de software para embasar e fundamentar o termo \textit{Hardware Vocabulary}. 
+
+	\section{Background}
+\quad Graças aos atuais projetos eletrônicos baseado em HDL, metodologias e ferramentas para simulação, síntese, verificação, modelagem física e teste pós-fabricação agora estão bem inseridos e são essenciais para designers digitais \cite{Navabi2015}. Nos últimos anos as linguagens de descrição e verificação de hardware tornaram-se tão importantes para a modelagem de sistemas digitais, quanto as linguagens de programação o são para a engenharia de software. 
+	
+	\subsection{Vocabulário de Software}
+\quad Santos, em \cite{Santos2009} define que vocabulário de código fonte compreende as cadeias de caracteres que identificam os elementos estruturais e as palavras que compõem as sentenças dos comentários de um código fonte. No paradigma de programação dominante atualmente OOP (Object-Oriented Programming),
+
+	\subsection{O Hardware Como Um Software}
+\quad 
+
+	\subsection{O Que é Uma HDL?}
+%\quad HDVL (Hardware Description and Verification Language), podemos abstrair como um único ambiente para design e verificação de sistemas digitais, em \cite{Flake} uma HDVL representa hardware digital em vários níveis de abstração.
+
+\quad Uma descrição HDL(\textit{Hardware Description Language}) é uma representação precisa que pode ser usada para documentar, comunicar e simular o projeto \cite{Miller-Karlow}.
+
+As HDLs modernas são fundamentais para o desenvolvimento de sistemas digitais possibilitando suas descrições de forma estrutural, comportamental e nos últimos anos, seguindo conceitos básicos de orientação a objetos, fornecendo assim um mecanismo efetivo para o desenvolvimento de projetos à medida que evoluem da abstração para a realidade.
+
+&--------------RESCREVER ESSA PARADA!!!! DATTEBAYO
+Uma dificuldade em usar HDLs para desenvolver projetos é a natureza pesada da sintaxe HDL. Um HDL descreve um sistema complexo e multifacetado usando uma representação textual unidimensional, o que resulta na ofuscação de muitos aspectos do projeto.
+	\section{SystemVerilog Vocabulary Extractor}
+	\section{Resultados e Discussões}
+\quad Afim de calcularmos uma porcentagem de extracão que melhor represente a eficiência do software proposto, foi elaborado um design genérico com todas as estruturas possíveis em SistemVerilog. Os resultados obtidos são apresentados na tabela abaixo:
+
+\begin{table}[h]
+\centering
+\caption{Hello Word Table}
+	\begin{tabular}{r|l|r}
+	\hline
+	posição & País & IDH\\
+	\hline
+	1 & Noruega        & .955 \\
+	\hline
+	2 & Austrália 	   & .938 \\
+	\hline
+	3 & EUA            &. 937 \\
+	\hline
+	4 & Holanda        & .921 \\
+	\hline
+	5 & Alemanha       & .920 \\
+	\hline
+	
+	\end{tabular}
+
+\end{table}
+
+\quad Os resultados apresentados na tabela acima mostra que ...
+
+	Foram realizados, também, outros testes com hardware \textit{opensource} obtidos em repositórios no Github. Os resultados obtidos estão expostos na tabela abaixo:
+	
+	\begin{table}[h]
+\centering
+\caption{Hello Word Table}
+	\begin{tabular}{r|l|r}
+	\hline
+	posição & País & IDH\\
+	\hline
+	1 & Noruega        & .955 \\
+	\hline
+	2 & Austrália 	   & .938 \\
+	\hline
+	3 & EUA            &. 937 \\
+	\hline
+	4 & Holanda        & .921 \\
+	\hline
+	5 & Alemanha       & .920 \\
+	\hline
+	
+	\end{tabular}
+
+\end{table}
+	
+  
+	\bibliography{refs}
+	\bibliographystyle{abbrv}
+	
+\end{document}
