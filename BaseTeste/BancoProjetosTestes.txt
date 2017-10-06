@@ -1,1 +1,4 @@
-Projeto: zynq-sandbox-master  repositorio: https://github.com/swetland/zynq-sandbox
+Projeto: zynq-sandbox  repositorio: https://github.com/swetland/zynq-sandbox
+Projeto: uvm-utest            repositorio: https://github.com/nosnhojn/uvm-utest
+Projeto: fpga_fast_serial_sort    repositorio: https://github.com/Poofjunior/fpga_fast_serial_sort
+Projeto: uvm-tutorial-for-candy-lovers  repositorio:https://github.com/cluelogic/uvm-tutorial-for-candy-lovers
