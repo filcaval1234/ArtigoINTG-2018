@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  6 OCT 2017 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  6 OCT 2017 17:45
 entering extended mode
 **./BASE.tex
 (BASE.tex
@@ -760,42 +760,46 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
 
-Underfull \hbox (badness 1132) in paragraph at lines 61--62
+Underfull \hbox (badness 1132) in paragraph at lines 71--72
 \OT1/ptm/m/n/12 de soft-ware atrela-se ao fato do cons-tante
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 61--62
-\OT1/ptm/m/n/12 em de-sen-vol-ver sis-te-mas di-gi-tais. Desde
+Underfull \hbox (badness 1043) in paragraph at lines 71--72
+\OT1/ptm/m/n/12 es-que-mas gr[]aficos []a descri[][]ao ba-se-ada em
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 1701) in paragraph at lines 73--74
+\OT1/ptm/m/n/12 soft-ware eram de-sen-vol-vi-dos por meio de
+ []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 76--78
+Underfull \hbox (badness 1394) in paragraph at lines 77--79
 \OT1/ptm/m/n/12 Dada uma lin-gua-gem de descri[][]ao e (ou)
  []
 
-
-LaTeX Warning: Citation `AST' on page 2 undefined on input line 82.
-
 [2]
-Underfull \hbox (badness 3219) in paragraph at lines 109--110
+
+LaTeX Warning: Citation `AVLSystemVerilog' on page 3 undefined on input line 83
+.
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 110--111
 [] \OT1/ptm/m/n/12 Os re-sul-ta-dos apre-sen-ta-dos na ta-bela
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 111--112
+Underfull \hbox (badness 1048) in paragraph at lines 112--113
 []\OT1/ptm/m/n/12 Foram re-a-li-za-dos, tamb[]em, ou-tros tes-tes
  []
 
-(BASE.bbl
+(BASE.bbl [3]
 Underfull \hbox (badness 7613) in paragraph at lines 58--62
 []\OT1/ptm/m/n/12 S. Suther-land, S. Da-vid-mann, and
  []
 
-[3]) [4
+) [4
 
 ] (BASE.aux)
 
@@ -804,8 +808,8 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  4319 strings out of 493323
- 56296 string characters out of 3137315
- 236270 words of memory out of 3000000
+ 56309 string characters out of 3137315
+ 237270 words of memory out of 3000000
  7752 multiletter control sequences out of 15000+200000
  34781 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -818,7 +822,7 @@ ler/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Nova pasta (2)/LaTexComp
 iler/fonts/type1/urw/symbol/usyr.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/typ
 e1/urw/times/utmb8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/urw/times/
 utmr8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/urw/times/utmri8a.pfb>
-Output written on BASE.pdf (4 pages, 94477 bytes).
+Output written on BASE.pdf (4 pages, 94984 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

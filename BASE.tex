@@ -27,7 +27,7 @@
 
 \quad Verilog foi uma das primeiras linguagens para descrição de hardware (HDL) a ser inventada, em meados da década de 80. O tamanho típico dos projetos era entre de 5 a 10 mil portas lógicas. O método de concepção dos circuitos utilizava-se de esquema gráfico, e a simulação começava a ser uma ferramenta essencial para verificação\cite{sutherland2006}. Com a evolução da tecnologia de descrição e verificação de hardware, em 2002 surge SystemVerilog. 
 
-A partir disto, como a complexidade de sistemas digitais modernos aumentou exponencialmente, tanto que, o tamanho dos atuais projetos chega a ordem dos milhões de portas lógicas. Assim as metodologias de projetos em sistemas digitais estão evoluindo extensivamente \cite{Marc-Andre} e \cite{Hahanov2008}.
+A partir disto, como a complexidade de sistemas digitais modernos aumentou exponencialmente, tanto que, o tamanho dos atuais projetos chega a ordem dos bilhões de portas lógicas. Assim as metodologias de projetos em sistemas digitais estão evoluindo extensivamente \cite{Marc-Andre} e \cite{Hahanov2008}.
 
 Com tal avanço, elevou-se o nível de abstração no desenvolvimento de hardware por meio de uma linguagem de descrição e verificação de hardware (HDVL), de tal forma que, o uso de ferramentas de análise de informações que antes eram somente do escopo da engenharia de software, pode ser estendido também para o desenvolvimento de sistemas digitais.
 
@@ -57,11 +57,6 @@ No paradigma de programação dominante atualmente OOP (\textit{Object-Oriented 
 
 O léxico de um programa representa um investimento substancial para uma empresa de software, portanto, sua importância deve preservada e elevada ao longo do tempo, para aproveitar ao máximo seus efeitos e benéficos na compreensão do programa \cite{Antoniol2007}.
 
-	\subsection{O Hardware Como Um Software}
-\quad A evolução no processo de desenvolvimento de software atrela-se ao fato do constante avanço dos paradigmas de programação, desde a programação procedural até a orientação a objetos. De forma análoga, a evolução do processo de desenvolvimento de hardware, atrela-se também ao constante avanço dos métodos em desenvolver sistemas digitais. Desde esquemas gráficos à descrição baseado em orientação a objetos e verificação UVM (\textit{Universal Verification Methodology}).
-
-A aproximação (similaridade no processo de desenvolvimento) do software ao Hardware surge da criação das HDLs ...
-
 	\subsection{O Que é Uma HDL?}
 %\quad HDVL (Hardware Description and Verification Language), podemos abstrair como um único ambiente para design e verificação de sistemas digitais, em \cite{Flake} uma HDVL representa hardware digital em vários níveis de abstração.
 
@@ -71,15 +66,21 @@ As HDLs modernas são fundamentais para o desenvolvimento de sistemas digitais, 
 
 %--------------apagar essa parada!!!! DATTEBAYO
 %A sintaxe pesada de uma HDL apresenta um problema no desenvolvimento de projetos, pois descreve um sistema complexo e multifacetado por meio de uma representação textual unidimencional, dificultando a abstração de \textit{\textbf{muitos}} aspetos do projeto.
+
+	\subsection{O Hardware Como Um Software}
+\quad A evolução no processo de desenvolvimento de software atrela-se ao fato do constante avanço dos paradigmas de programação, desde a programação procedural até a orientação a objetos. De forma análoga, a evolução do processo de desenvolvimento de hardware, atrela-se também ao constante avanço dos métodos em desenvolver sistemas digitais. Indo desde esquemas gráficos à descrição baseada em orientação a objetos e verificação UVM (\textit{Universal Verification Methodology}).
+
+A aproximação (similaridade no processo de desenvolvimento) do software ao Hardware surge da criação das HDLs. Neste ponto da evolução tecnológica, tanto hardware quanto software eram desenvolvidos por meio de uma representação textual unidemensional, seguindo uma determinada sintaxe e semântica. Em \cite{Hahanov2008} classes e módulos são coisas bastantes semelhantes, trazendo assim a possibilidade de usar classes dentro de um contexto de verificação de hardware. 
+
 	\subsection{Hardware Vocabulary} 
 	
 Dada uma linguagem de descrição e (ou) verificação de hardware temos que;\\
-As sequencias de caracteres que nomeiam as entidades estruturais assim como os blocos de comentários são chamados de \textit{Vocabulário de Hardware} 
+As sequencias de caracteres que nomeiam as entidades estruturais assim como os blocos de comentários são chamados de \textit{Vocabulário de Hardware}, de forma que .  
 
-Sendo $S$ o conjunto de todo o código fonte, e que cada elemento deste conjunto seja $\alpha$ , temos que o vocabulário de hardware é definido como  a imagem da função $F(\alpha)$ (função Extração), onde $im(F) = \mathbb{HC}$ é o agrupamento dos dados na forma real da modelagem destes dados. Assim $F: \mathbb{S}\rightarrow\mathbb{HC}$
+Sendo $S$ o conjunto de todo o código fonte, e que cada elemento deste conjunto seja $\alpha$ , temos que o vocabulário de hardware é definido como  a imagem da função $F(\alpha)$ (função Extração), onde $im(F) = \mathbb{HV}$ é o agrupamento dos dados na forma real da modelagem destes dados. Assim $F: \mathbb{S}\rightarrow\mathbb{HV}$
 	\section{SystemVerilog Vocabulary Extractor}
 	
-\quad A fim de analisar e extrair o HV (\textit{Hardware Vocabulary}) de SystemVerlog desenvolvemos o ferramental \textit{Hardware 	 Vocabulary Tool}, e \cite{AST}
+\quad A fim de analisar e extrair o vocabulario de hardware pertencentes a projetos descritos em SystemVerlog desenvolvemos o ferramental \textit{Hardware Vocabulary Tool}, e \cite{AVLSystemVerilog}
 	
 	
 	\quad Afim de calcularmos uma porcentagem de extracão que melhor represente a eficiência do software proposto, foi elaborado um design genérico com todas as estruturas possíveis em SistemVerilog. Os resultados obtidos são apresentados na tabela abaixo:
