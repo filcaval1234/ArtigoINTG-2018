@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  5 OCT 2017 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  6 OCT 2017 10:57
 entering extended mode
 **./BASE.tex
 (BASE.tex
@@ -501,6 +501,41 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
+("D:\Nova pasta (2)\LaTexCompiler\tex\latex\pslatex\pslatex.sty"
+Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
+)
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -551,18 +586,24 @@ Package babel Info: Making " an active character on input line 145.
 )) (BASE.aux)
 \openout1 = `BASE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 14.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 14
+.
+
+("D:\Nova pasta (2)\LaTexCompiler\tex\latex\psnfss\omspzccm.fd"
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 ("D:\Nova pasta (2)\LaTexCompiler\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -653,133 +694,122 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 18
+.
+("D:\Nova pasta (2)\LaTexCompiler\tex\latex\psnfss\ot1ptmcm.fd"
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 18
+.
+
+("D:\Nova pasta (2)\LaTexCompiler\tex\latex\psnfss\omlptmcm.fd"
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 18
+.
+
+("D:\Nova pasta (2)\LaTexCompiler\tex\latex\psnfss\omxpsycm.fd"
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1092) in paragraph at lines 28--29
-[]\OT1/cmr/m/n/12 A par-tir disto, como a com-ple-xi-dade
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+
+Underfull \hbox (badness 4181) in paragraph at lines 30--31
+[]\OT1/ptm/m/n/12 O m[]etodo de concep[][]ao dos cir-cui-tos
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 28--29
-\OT1/cmr/m/n/12 au-men-tar ex-po-nen-ci-al-mente, tem-se que
+Underfull \hbox (badness 2875) in paragraph at lines 34--35
+[]\OT1/ptm/m/n/12 Com tal avan[]o, elevou-se o n[]vel de
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 32--33
-\OT1/cmr/m/n/12 VLSI(Very Large Scale In-te-gra-tion) [7].
+Underfull \hbox (badness 1132) in paragraph at lines 34--35
+\OT1/ptm/m/n/12 abstra[][]ao no de-sen-vol-vi-mento de hard-ware
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 34--35
-[]\OT1/cmr/m/n/12 Umas das prin-ci-pais fon-tes de in-
+Underfull \hbox (badness 1286) in paragraph at lines 34--35
+\OT1/ptm/m/n/12 por meio de uma lin-gua-gem de descri[][]ao
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 34--35
+\OT1/ptm/m/n/12 e verifica[][]ao de hard-ware (HDVL), de tal
  []
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 1077) in paragraph at lines 42--43
-\OT1/cmr/m/n/12 vo-ca-bulario de codigo fonte com-pre-ende
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Citation `AST' on page 2 undefined on input line 77.
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 104--105
+[] \OT1/ptm/m/n/12 Os re-sul-ta-dos apre-sen-ta-dos na ta-bela
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 48--49
-[]\OT1/cmr/m/n/12 No pa-ra-digma de pro-gramac~ao do-mi-
+Underfull \hbox (badness 1048) in paragraph at lines 106--107
+[]\OT1/ptm/m/n/12 Foram re-a-li-za-dos, tamb[]em, ou-tros tes-tes
  []
 
-
-Underfull \hbox (badness 1342) in paragraph at lines 48--49
-\OT1/cmr/m/n/12 nante atu-al-mente OOP (\OT1/cmr/m/it/12 Object-Oriented
+[2] (BASE.bbl
+Underfull \hbox (badness 7613) in paragraph at lines 58--62
+[]\OT1/ptm/m/n/12 S. Suther-land, S. Da-vid-mann, and
  []
 
+) [3] (BASE.aux)
 
-Underfull \hbox (badness 1502) in paragraph at lines 50--51
-[]\OT1/cmr/m/n/12 No de-sen-vol-vi-mento de gran-des sis-te-
- []
+LaTeX Warning: There were undefined references.
 
-
-Underfull \hbox (badness 1668) in paragraph at lines 54--54
-[]\OT1/cmr/bx/n/14.4 O Hard-ware Como Um
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 62--63
-[]\OT1/cmr/m/n/12 As HDLs mo-der-nas s~ao fun-da-men-tais
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[]\OT1/cmr/bx/n/17.28 SystemVerilog Vo-ca-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
-[]\OT1/cmr/bx/n/17.28 Resultados e Dis-
- []
-
-(BASE.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
-[]\OT1/cmr/m/n/12 G. An-to-niol, Y. G. Gueheneuc,
- []
-
-
-Underfull \hbox (badness 1242) in paragraph at lines 28--32
-\OT1/cmr/m/it/12 IEEE In-ter-na-ti-o-nal Wor-king Con-fe-
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 34--39
-[]\OT1/cmr/m/n/12 IEEE Com-pu-ter So-ci-ety and IEEE
- []
-
-
-Underfull \hbox (badness 1960) in paragraph at lines 34--39
-\OT1/cmr/m/n/12 Spe-ci-fi-ca-tion, and Ve-ri-fi-ca-tion Lan-
- []
-
-
-Underfull \hbox (badness 2302) in paragraph at lines 47--52
-\OT1/cmr/m/n/12 THE ABS-TRAC-TION LE-VEL OF
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 47--52
-\OT1/cmr/m/n/12 HDL FOR CONTROL-DOMINANT
- []
-
-
-Underfull \hbox (badness 1635) in paragraph at lines 77--81
-[]\OT1/cmr/m/n/12 S. Suther-land, S. Da-vid-mann, and
- []
-
-[3]) [4
-
-] (BASE.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 4073 strings out of 493323
- 52662 string characters out of 3137315
- 234801 words of memory out of 3000000
- 7530 multiletter control sequences out of 15000+200000
- 12443 words of font info for 48 fonts, out of 3000000 for 9000
+ 4319 strings out of 493323
+ 56296 string characters out of 3137315
+ 236270 words of memory out of 3000000
+ 7752 multiletter control sequences out of 15000+200000
+ 34781 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,25p,602b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmmi1
-2.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmr12.pfb
-><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/
-Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Nova
- pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Nova pas
-ta (2)/LaTexCompiler/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on BASE.pdf (4 pages, 100549 bytes).
+ 39i,11n,25p,568b,230s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Nova pasta (2)/LaTexCompiler/fonts/enc/dvips/base/8r.enc}<D:/Nova pasta (
+2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Nova pasta (2)/L
+aTexCompiler/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Nova pasta (2)/LaTexC
+ompiler/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Nova pasta (2)/LaTexCompi
+ler/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Nova pasta (2)/LaTexComp
+iler/fonts/type1/urw/times/utmb8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/ty
+pe1/urw/times/utmr8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on BASE.pdf (3 pages, 87672 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

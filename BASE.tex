@@ -6,6 +6,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{pslatex}
 \usepackage[a4paper, left=3cm, right=2cm, top=3cm, bottom=2cm,
 		headsep=1cm, footskip=2cm]{geometry}
 \usepackage[brazil]{babel}
@@ -23,23 +24,30 @@
 	
 % Keywords: HDL, SystemVerilog, Software Vocabulary, Hardware Vocabulary,  
 	\section{Introdução}
-\quad Quando Verilog foi criado em meados da decada de 80, o tamanho típicos dos projetos era na ordem de 5 a 10 mil portas lógicas, o método de concepção dos circuitos era usando esquema gráfico, e a simulação estava começando a ser uma ferramenta essencial para verificação\cite{sutherland2006}. A linguagem Verilog continuou a evoluir com a tecnologia de \textit{design} e verificação até que, em 2002 surge SystemVerilog, sendo esta linguagem uma significante melhoria de Verilog\cite{sutherland2006}. 
 
-A partir disto, como a complexidade de sistemas digitais modernos continua a aumentar exponencialmente, tem-se que as metodologias de projetos RTL(Register Transfer Level) estão evoluindo também\cite{Marc-Andre} e \cite{Hahanov2008}.
+\quad Verilog foi uma das primeiras linguagens para descrição de hardware (HDL) a ser inventada, em meados da década de 80. O tamanho típico dos projetos era entre de 5 a 10 mil portas lógicas. 
 
-Com tal avanço, elevou-se o nível de abstração no desenvolvimento de hardware por meio de uma linguagem de descrição e verificação de hardware (HDVL), de tal forma que, o uso de ferramentas de análise de informações que antes eram somente do escopo da engenharia de software, poderá contribuir também para o desenvolvimento de sistemas digitais.
+O método de concepção dos circuitos utilizava-se de esquema gráfico, e a simulação começava a ser uma ferramenta essencial para verificação\cite{sutherland2006}. Com a evolução da tecnologia de descrição e verificação de hardware, em 2002 surge SystemVerilog. 
 
-Nos últimos anos, SystemVerilog e SystemC estão sendo extensivamente usadas para descrição e verificação na industria VLSI(Very Large Scale Integration)\cite{Kumar2014}. Sendo que ultilizou-se neste trabalho SystemVerilog, que é uma unificação entre, descrição de hardware e linguagem de verificação\cite{IEEEComputerSociety2013}, permitindo o uso de uma linguagem unificada para especificações abstratas e detalhadas para descrição e verificação.
+A partir disto, como a complexidade de sistemas digitais modernos aumentou exponencialmente, tanto que, o tamanho dos atuais projetos chega a ordem dos milhões de portas lógicas. Assim as metodologias de projetos em sistemas digitais estão evoluindo extensivamente \cite{Marc-Andre} e \cite{Hahanov2008}.
 
-Umas das principais fontes de informações em um código fonte é o vocabulário. Denominado de léxico do código em \cite{Host2007}, \cite{Antoniol2007} e \cite{Santos2009}, consiste no conjunto de termos repetidos ou únicos que compõem identificadores e que estão presentes no textos dos comentários\cite{Abebe2009}.
+Com tal avanço, elevou-se o nível de abstração no desenvolvimento de hardware por meio de uma linguagem de descrição e verificação de hardware (HDVL), de tal forma que, o uso de ferramentas de análise de informações que antes eram somente do escopo da engenharia de software, pode ser estendido também para o desenvolvimento de sistemas digitais.
 
-Usando os princípios da engenharia reversa como uma coleção de metodologias e técnicas capazes de realizar a extração e abstração de informações\cite{BENEDUSI1992225} e \cite{Santos2009}, propõe-se neste trabalho a extração do vocabulário pertencentes a projetos de hardware descritos em SystemVerilog e usando a definição formal de Santos em \cite{Santos2015} sobre vocabulário de software para embasar e fundamentar o termo \textit{Hardware Vocabulary}. 
+Umas das principais fontes de informações em um código fonte no âmbito da engenharia de software, é o vocabulário. Dentre suas principais utilidades listamos o seguinte:\\
+\quad 1. Localização de bugs;\\
+\qquad 2. Identificação de uma arquitetura;\\
+\qquad 3. Métricas sobre o código fonte;\\
+\qquad 4. Identificação de especialista \cite{Santos2015}.
+
+O vocabulário de software também denominado de léxico do código em \cite{Biggers2011}, consiste no conjunto de termos repetidos ou únicos que compõem identificadores e que estão presentes no textos dos comentários\cite{Abebe2009}.
+
+Usando os princípios da engenharia reversa como uma coleção de metodologias e técnicas capazes de realizar a extração e abstração de informações\cite{Santos2009}, propõe-se neste trabalho a extração do vocabulário pertencentes a projetos de hardware descritos em SystemVerilog, e usando a definição formal de Santos em \cite{Santos2015} sobre vocabulário de software para embasar e fundamentar o termo \textit{Hardware Vocabulary}. 
 
 	\section{Background}
 \quad Graças aos atuais projetos eletrônicos baseado em HDL, metodologias e ferramentas para simulação, síntese, verificação, modelagem física e teste pós-fabricação agora estão bem inseridos e são essenciais para designers digitais \cite{Navabi2015}. Nos últimos anos as linguagens de descrição e verificação de hardware tornaram-se tão importantes para a modelagem de sistemas digitais, quanto as linguagens de programação o são para a engenharia de software. 
 	
 	\subsection{Software Vocabulary}
-\quad Santos em \cite{Santos2009}, define informalmente que vocabulário de código fonte compreende as cadeias de caracteres que identificam os elementos estruturais e as palavras que compõem as sentenças dos comentários de um código fonte. Dentro dos campos de estudo da engenharia de software outro termo bastante conhecido e isomorfo a \textit{Software Vocabulary} é o \textit{léxico do código} que em \cite{Abebe2009} e \cite{Antoniol2007} são os elementos que nomeiam as entidades estruturais da linguagem além dos comentários escritos em linguagem natural.
+\quad Santos em \cite{Santos2009}, define que vocabulário de código fonte compreende as cadeias de caracteres que identificam os elementos estruturais e as palavras que compõem as sentenças dos comentários de um código fonte. Dentro dos campos de estudo da engenharia de software outro termo bastante conhecido e isomorfo a \textit{Software Vocabulary} é o \textit{léxico do código} que em \cite{Biggers2011} são os elementos que nomeiam as entidades estruturais da linguagem além dos comentários escritos em linguagem natural.
 
  \textit{Software Vocabulary} é um multiconjunto de \textit{Strings}, i.e. uma aplicação $V:$ $\mathbb{S}\rightarrow\mathbb{N}$, que mapeia \textit{Strings} para números naturais. Elementos de um vocabulário são chamados \textit{termos}. Para qualquer termo $t$, $V(t)$ representa o número de ocorrências do termo $t$ no vocabulário $V$. Se $V(t)>0$ dizemos que $t$ é um termo do vocabulário \cite{Santos2015}.
 
@@ -65,6 +73,9 @@ As HDLs modernas são fundamentais para o desenvolvimento de sistemas digitais, 
 %A sintaxe pesada de uma HDL apresenta um problema no desenvolvimento de projetos, pois descreve um sistema complexo e multifacetado por meio de uma representação textual unidimencional, dificultando a abstração de \textit{\textbf{muitos}} aspetos do projeto.
 	\subsection{Hardware Vocabulary} 
 	\section{SystemVerilog Vocabulary Extractor}
+	
+\quad A fim de analisar e extrair o HV (\textit{Hardware Vocabulary}) de SystemVerlog desenvolvemos o ferramental \textit{Hardware 	 Vocabulary Tool}, e \cite{AST}
+	
 	
 	\quad Afim de calcularmos uma porcentagem de extracão que melhor represente a eficiência do software proposto, foi elaborado um design genérico com todas as estruturas possíveis em SistemVerilog. Os resultados obtidos são apresentados na tabela abaixo:
 

@@ -12,36 +12,17 @@ G.~Antoniol, Y.~G. Gu{\'{e}}h{\'{e}}neuc, E.~Merlo, and P.~Tonella.
 \newblock {\em IEEE International Conference on Software Maintenance, ICSM},
   pages 14--23, 2007.
 
-\bibitem{BENEDUSI1992225}
-P.~Benedusi, A.~Cimitile, and U.~D. Carlini.
-\newblock Reverse engineering processes, design document production, and
-  structure charts.
-\newblock {\em Journal of Systems and Software}, 19(3):225 -- 245, 1992.
+\bibitem{Biggers2011}
+L.~R. Biggers, B.~P. Eddy, N.~A. Kraft, and L.~H. Etzkorn.
+\newblock {Toward a metrics suite for source code lexicons}.
+\newblock {\em IEEE International Conference on Software Maintenance, ICSM},
+  pages 492--495, 2011.
 
 \bibitem{Hahanov2008}
 V.~Hahanov, D.~Melnik, O.~Zaharchenko, and S.~Zaychenko.
 \newblock {Overview of Object-Oriented Approach to HDL- Testbench Construction
   for System-on-Chips}.
 \newblock pages 621--625, 2008.
-
-\bibitem{Host2007}
-E.~W. H{\o}st and B.~M. {\O}stvold.
-\newblock {The programmer's lexicon, volume I: The verbs}.
-\newblock {\em SCAM 2007 - Proceedings 7th IEEE International Working
-  Conference on Source Code Analysis and Manipulation}, I:193--202, 2007.
-
-\bibitem{IEEEComputerSociety2013}
-{IEEE Computer Society} and {IEEE Standards Association Corporate Advisory
-  Group}.
-\newblock {IEEE Standard for SystemVerilog–Unified Hardware Design,
-  Specification, and Verification Language}.
-\newblock 2012(February):1315, 2013.
-
-\bibitem{Kumar2014}
-P.~Kumar.
-\newblock {High Level Modeling Of Physical Layer Noise Parameters Using
-  SystemC}.
-\newblock pages 344--347, 2014.
 
 \bibitem{Marc-Andre}
 J.~D. {M. DAIGNEAULT}.
