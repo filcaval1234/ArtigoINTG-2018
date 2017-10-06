@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  6 OCT 2017 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  6 OCT 2017 15:13
 entering extended mode
 **./BASE.tex
 (BASE.tex
@@ -730,27 +730,22 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 
-Underfull \hbox (badness 4181) in paragraph at lines 30--31
-[]\OT1/ptm/m/n/12 O m[]etodo de concep[][]ao dos cir-cui-tos
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 34--35
+Underfull \hbox (badness 2875) in paragraph at lines 32--33
 []\OT1/ptm/m/n/12 Com tal avan[]o, elevou-se o n[]vel de
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 34--35
+Underfull \hbox (badness 1132) in paragraph at lines 32--33
 \OT1/ptm/m/n/12 abstra[][]ao no de-sen-vol-vi-mento de hard-ware
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 34--35
+Underfull \hbox (badness 1286) in paragraph at lines 32--33
 \OT1/ptm/m/n/12 por meio de uma lin-gua-gem de descri[][]ao
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 34--35
+Underfull \hbox (badness 1072) in paragraph at lines 32--33
 \OT1/ptm/m/n/12 e verifica[][]ao de hard-ware (HDVL), de tal
  []
 
@@ -759,34 +754,50 @@ Underfull \hbox (badness 1072) in paragraph at lines 34--35
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+
+Underfull \hbox (badness 1132) in paragraph at lines 61--62
+\OT1/ptm/m/n/12 de soft-ware atrela-se ao fato do cons-tante
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 61--62
+\OT1/ptm/m/n/12 em de-sen-vol-ver sis-te-mas di-gi-tais. Desde
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \hbox (badness 1394) in paragraph at lines 76--78
+\OT1/ptm/m/n/12 Dada uma lin-gua-gem de descri[][]ao e (ou)
+ []
 
-LaTeX Warning: Citation `AST' on page 2 undefined on input line 77.
 
+LaTeX Warning: Citation `AST' on page 2 undefined on input line 82.
 
-Underfull \hbox (badness 3219) in paragraph at lines 104--105
+[2]
+Underfull \hbox (badness 3219) in paragraph at lines 109--110
 [] \OT1/ptm/m/n/12 Os re-sul-ta-dos apre-sen-ta-dos na ta-bela
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 106--107
+Underfull \hbox (badness 1048) in paragraph at lines 111--112
 []\OT1/ptm/m/n/12 Foram re-a-li-za-dos, tamb[]em, ou-tros tes-tes
  []
 
-[2] (BASE.bbl
+(BASE.bbl
 Underfull \hbox (badness 7613) in paragraph at lines 58--62
 []\OT1/ptm/m/n/12 S. Suther-land, S. Da-vid-mann, and
  []
 
-) [3] (BASE.aux)
+[3]) [4
+
+] (BASE.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -804,12 +815,12 @@ Here is how much of TeX's memory you used:
 aTexCompiler/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Nova pasta (2)/LaTexC
 ompiler/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Nova pasta (2)/LaTexCompi
 ler/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Nova pasta (2)/LaTexComp
-iler/fonts/type1/urw/times/utmb8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/ty
-pe1/urw/times/utmr8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/urw/times
-/utmri8a.pfb>
-Output written on BASE.pdf (3 pages, 87672 bytes).
+iler/fonts/type1/urw/symbol/usyr.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/typ
+e1/urw/times/utmb8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/urw/times/
+utmr8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/urw/times/utmri8a.pfb>
+Output written on BASE.pdf (4 pages, 94477 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
