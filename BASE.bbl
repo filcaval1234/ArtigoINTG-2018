@@ -24,6 +24,19 @@ V.~Hahanov, D.~Melnik, O.~Zaharchenko, and S.~Zaychenko.
   for System-on-Chips}.
 \newblock pages 621--625, 2008.
 
+\bibitem{IEEEComputerSociety2013}
+{IEEE Computer Society} and {IEEE Standards Association Corporate Advisory
+  Group}.
+\newblock {IEEE Standard for SystemVerilog–Unified Hardware Design,
+  Specification, and Verification Language}.
+\newblock 2012(February):1315, 2013.
+
+\bibitem{Kumar2014}
+P.~Kumar.
+\newblock {High Level Modeling Of Physical Layer Noise Parameters Using
+  SystemC}.
+\newblock pages 344--347, 2014.
+
 \bibitem{Marc-Andre}
 J.~D. {M. DAIGNEAULT}.
 \newblock {RAISING THE ABSTRACTION LEVEL OF HDL FOR CONTROL-DOMINANT

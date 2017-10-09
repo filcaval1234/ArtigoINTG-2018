@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  6 OCT 2017 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  9 OCT 2017 15:34
 entering extended mode
 **./BASE.tex
 (BASE.tex
@@ -469,38 +469,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("D:\Nova pasta (2)\LaTexCompiler\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-("D:\Nova pasta (2)\LaTexCompiler\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
-)
-("D:\Nova pasta (2)\LaTexCompiler\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
-
-("D:\Nova pasta (2)\LaTexCompiler\tex\latex\graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("D:\Nova pasta (2)\LaTexCompiler\tex\latex\graphics-cfg\graphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-
-("D:\Nova pasta (2)\LaTexCompiler\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-("D:\Nova pasta (2)\LaTexCompiler\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("D:\Nova pasta (2)\LaTexCompiler\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count109
-))
-\Gin@req@height=\dimen121
-\Gin@req@width=\dimen122
-)
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\pslatex\pslatex.sty"
 Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
@@ -536,9 +504,45 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
 )
+("D:\Nova pasta (2)\LaTexCompiler\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("D:\Nova pasta (2)\LaTexCompiler\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("D:\Nova pasta (2)\LaTexCompiler\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("D:\Nova pasta (2)\LaTexCompiler\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("D:\Nova pasta (2)\LaTexCompiler\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count109
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+("D:\Nova pasta (2)\LaTexCompiler\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
+("D:\Nova pasta (2)\LaTexCompiler\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
 ("D:\Nova pasta (2)\LaTexCompiler\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
@@ -552,14 +556,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@cnth=\count110
 \Gm@cntv=\count111
 \c@Gm@tempcnt=\count112
-\Gm@bindingoffset=\dimen123
-\Gm@wd@mp=\dimen124
-\Gm@odd@mp=\dimen125
-\Gm@even@mp=\dimen126
-\Gm@layoutwidth=\dimen127
-\Gm@layoutheight=\dimen128
-\Gm@layouthoffset=\dimen129
-\Gm@layoutvoffset=\dimen130
+\Gm@bindingoffset=\dimen121
+\Gm@wd@mp=\dimen122
+\Gm@odd@mp=\dimen123
+\Gm@even@mp=\dimen124
+\Gm@layoutwidth=\dimen125
+\Gm@layoutheight=\dimen126
+\Gm@layouthoffset=\dimen127
+\Gm@layoutvoffset=\dimen128
 \Gm@dimlist=\toks22
 
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\geometry\geometry.cfg"))
@@ -579,7 +583,7 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 ("D:\Nova pasta (2)\LaTexCompiler\tex\generic\babel\babel.def"
 File: babel.def 2017/05/19 3.10 Babel common definitions
 \babel@savecnt=\count113
-\U@D=\dimen131
+\U@D=\dimen129
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
@@ -608,57 +612,16 @@ LaTeX Font Info:    ... okay on input line 14.
 ("D:\Nova pasta (2)\LaTexCompiler\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count114
-\scratchdimen=\dimen132
+\scratchdimen=\dimen130
 \scratchbox=\box54
 \nofMPsegments=\count115
 \nofMParguments=\count116
 \everyMPshowfont=\toks23
 \MPscratchCnt=\count117
-\MPscratchDim=\dimen133
+\MPscratchDim=\dimen131
 \MPnumerator=\count118
 \makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks24
-) ("D:\Nova pasta (2)\LaTexCompiler\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("D:\Nova pasta (2)\LaTexCompiler\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-("D:\Nova pasta (2)\LaTexCompiler\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("D:\Nova pasta (2)\LaTexCompiler\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("D:\Nova pasta (2)\LaTexCompiler\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-("D:\Nova pasta (2)\LaTexCompiler\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("D:\Nova pasta (2)\LaTexCompiler\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("D:\Nova pasta (2)\LaTexCompiler\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -668,14 +631,14 @@ G,.JBIG2,.JB2,.eps]
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=455.24411pt
+* \textwidth=483.69687pt
 * \textheight=702.78308pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
 * \topmargin=-27.36447pt
 * \headheight=12.0pt
 * \headsep=28.45274pt
@@ -730,23 +693,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 
-Underfull \hbox (badness 2875) in paragraph at lines 32--33
-[]\OT1/ptm/m/n/12 Com tal avan[]o, elevou-se o n[]vel de
- []
-
-
-Underfull \hbox (badness 1132) in paragraph at lines 32--33
-\OT1/ptm/m/n/12 abstra[][]ao no de-sen-vol-vi-mento de hard-ware
- []
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 32--33
-\OT1/ptm/m/n/12 por meio de uma lin-gua-gem de descri[][]ao
- []
-
-
-Underfull \hbox (badness 1072) in paragraph at lines 32--33
-\OT1/ptm/m/n/12 e verifica[][]ao de hard-ware (HDVL), de tal
+Underfull \hbox (badness 1424) in paragraph at lines 48--49
+\OT1/ptm/m/n/12 informa[][]oes [10], prop[]oe-se neste tra-ba-lho a
  []
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
@@ -754,75 +702,125 @@ Underfull \hbox (badness 1072) in paragraph at lines 32--33
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
 
-Underfull \hbox (badness 1132) in paragraph at lines 71--72
+Underfull \hbox (badness 4403) in paragraph at lines 64--65
+\OT1/ptm/m/n/12 al-mente OOP(\OT1/ptm/m/it/12 Object-Oriented Pro-gram-ming\OT1
+/ptm/m/n/12 ),
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 73--74
+ \OT1/ptm/m/n/12 Uma descri[][]ao HDL(\OT1/ptm/m/it/12 Hardware Des-crip-tion
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 85--86
 \OT1/ptm/m/n/12 de soft-ware atrela-se ao fato do cons-tante
  []
 
-
-Underfull \hbox (badness 1043) in paragraph at lines 71--72
-\OT1/ptm/m/n/12 es-que-mas gr[]aficos []a descri[][]ao ba-se-ada em
- []
-
-
-Underfull \hbox (badness 1701) in paragraph at lines 73--74
-\OT1/ptm/m/n/12 soft-ware eram de-sen-vol-vi-dos por meio de
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 77--79
-\OT1/ptm/m/n/12 Dada uma lin-gua-gem de descri[][]ao e (ou)
- []
-
 [2]
-
-LaTeX Warning: Citation `AVLSystemVerilog' on page 3 undefined on input line 83
-.
-
-
-Underfull \hbox (badness 3219) in paragraph at lines 110--111
-[] \OT1/ptm/m/n/12 Os re-sul-ta-dos apre-sen-ta-dos na ta-bela
+Underfull \hbox (badness 1107) in paragraph at lines 93--94
+\OT1/ptm/m/n/12 pro-cesso de de-sen-vol-vi-mento de hard-ware ao
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 112--113
-[]\OT1/ptm/m/n/12 Foram re-a-li-za-dos, tamb[]em, ou-tros tes-tes
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[]\OT1/ptm/b/n/17.28 SystemVerilog Vo-ca-bu-lary
  []
 
-(BASE.bbl [3]
-Underfull \hbox (badness 7613) in paragraph at lines 58--62
-[]\OT1/ptm/m/n/12 S. Suther-land, S. Da-vid-mann, and
+
+Underfull \hbox (badness 1616) in paragraph at lines 111--112
+ \OT1/ptm/m/n/12 A fim de ana-li-sar e ex-trair o vo-ca-bul[]ario
  []
 
-) [4
 
-] (BASE.aux)
+Underfull \hbox (badness 1418) in paragraph at lines 141--142
+[]\OT1/ptm/m/n/12 Devido a di-fi-cul-dade para en-con-trar pro-je-
+ []
 
-LaTeX Warning: There were undefined references.
 
- ) 
+Underfull \hbox (badness 2142) in paragraph at lines 141--142
+\OT1/ptm/m/n/12 tos \OT1/ptm/m/it/12 open-source \OT1/ptm/m/n/12 re-a-li-za-mos
+ tes-tes com pro-je-
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 141--142
+\OT1/ptm/m/n/12 tos ob-ti-dos em re-po-sit[]orios p[]ublicos no site
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--190
+[] \OT1/ptm/m/n/12 re-turn[] re-gis-ter-Coun-ter + re-gis-te-rA-dress
+ []
+
+[3] (BASE.bbl
+Underfull \hbox (badness 3343) in paragraph at lines 22--26
+\OT1/ptm/m/n/12 Oriented Ap-pro-ach to HDL- Test-bench
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
+\OT1/ptm/m/n/12 dards As-so-ci-a-tion Cor-po-rate Ad-vi-sory
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 28--33
+\OT1/ptm/m/n/12 Group.  IEEE Stan-dard for Sys-tem-Ve-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
+\OT1/ptm/m/n/12 ri-log{Unified Hard-ware De-sign, Spe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
+\OT1/ptm/m/n/12 ci-fi-ca-tion, and Ve-ri-fi-ca-tion Lan-guage.
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 41--46
+[]\OT1/ptm/m/n/12 J. D. M. DAIG-NE-AULT.  RAI-SING
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 48--50
+[]\OT1/ptm/m/n/12 D. L. Miller-Karlow and E. J. Go-lin.
+ []
+
+) [4] (BASE.aux) ) 
 Here is how much of TeX's memory you used:
- 4319 strings out of 493323
- 56309 string characters out of 3137315
- 237270 words of memory out of 3000000
- 7752 multiletter control sequences out of 15000+200000
- 34781 words of font info for 80 fonts, out of 3000000 for 9000
+ 4359 strings out of 493323
+ 54478 string characters out of 3137315
+ 243939 words of memory out of 3000000
+ 7821 multiletter control sequences out of 15000+200000
+ 33674 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,25p,568b,230s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Nova pasta (2)/LaTexCompiler/fonts/enc/dvips/base/8r.enc}<D:/Nova pasta (
-2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Nova pasta (2)/L
-aTexCompiler/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Nova pasta (2)/LaTexC
-ompiler/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Nova pasta (2)/LaTexCompi
-ler/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Nova pasta (2)/LaTexComp
-iler/fonts/type1/urw/symbol/usyr.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/typ
-e1/urw/times/utmb8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/urw/times/
-utmr8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/urw/times/utmri8a.pfb>
-Output written on BASE.pdf (4 pages, 94967 bytes).
+ 27i,12n,35p,531b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Nova pasta (2)/LaTexCompiler/fonts/enc/dvips/base/8r.enc}
+<D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/
+Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Nova 
+pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Nova past
+a (2)/LaTexCompiler/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Nova pas
+ta (2)/LaTexCompiler/fonts/type1/urw/symbol/usyr.pfb><D:/Nova pasta (2)/LaTexCo
+mpiler/fonts/type1/urw/times/utmb8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/
+type1/urw/times/utmr8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/urw/tim
+es/utmri8a.pfb>
+Output written on BASE.pdf (4 pages, 98846 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
