@@ -2,3 +2,12 @@ Projeto: zynq-sandbox  repositorio: https://github.com/swetland/zynq-sandbox
 Projeto: uvm-utest            repositorio: https://github.com/nosnhojn/uvm-utest
 Projeto: fpga_fast_serial_sort    repositorio: https://github.com/Poofjunior/fpga_fast_serial_sort
 Projeto: uvm-tutorial-for-candy-lovers  repositorio:https://github.com/cluelogic/uvm-tutorial-for-candy-lovers
+Projeto: System-Verilog   repositorio: https://github.com/zricethezav/System-Verilog
+Projeto: sha3_sv_tb repositório: https://github.com/mayur13/SystemVerilog/tree/master/projects/sha3_sv_tb
+Projeto: ahb_apb_bridge_uvm_tb  repositorio: https://github.com/mayur13/UVM/tree/master/projects
+Projeto: apb2_uvm_tb     repositorio: https://github.com/mayur13/UVM/tree/master/projects
+Projeto: reusable_tb_env     repositorio: https://github.com/mayur13/UVM/tree/master/projects
+Projeto: sha3_uvm_tb     repositorio: https://github.com/mayur13/UVM/tree/master/projects
+Projeto: spi_uvm_tb     repositorio: https://github.com/mayur13/UVM/tree/master/projects
+Projeto:      repositorio: 
+Projeto:      repositorio: 
