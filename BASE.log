@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  9 OCT 2017 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  10 OCT 2017 17:47
 entering extended mode
 **./BASE.tex
 (BASE.tex
@@ -719,55 +719,53 @@ Underfull \hbox (badness 1540) in paragraph at lines 73--74
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 85--86
+Underfull \hbox (badness 4518) in paragraph at lines 87--88
 \OT1/ptm/m/n/12 de soft-ware atrela-se ao fato do cons-tante
  []
 
 [2]
-Underfull \hbox (badness 1107) in paragraph at lines 93--94
+Underfull \hbox (badness 1107) in paragraph at lines 95--96
 \OT1/ptm/m/n/12 pro-cesso de de-sen-vol-vi-mento de hard-ware ao
  []
 
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 112--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []\OT1/ptm/b/n/17.28 SystemVerilog Vo-ca-bu-lary
  []
 
-
-Underfull \hbox (badness 1616) in paragraph at lines 111--112
- \OT1/ptm/m/n/12 A fim de ana-li-sar e ex-trair o vo-ca-bul[]ario
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 141--142
+[3]
+Underfull \hbox (badness 1418) in paragraph at lines 171--172
 []\OT1/ptm/m/n/12 Devido a di-fi-cul-dade para en-con-trar pro-je-
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 141--142
+Underfull \hbox (badness 2142) in paragraph at lines 171--172
 \OT1/ptm/m/n/12 tos \OT1/ptm/m/it/12 open-source \OT1/ptm/m/n/12 re-a-li-za-mos
  tes-tes com pro-je-
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 141--142
+Underfull \hbox (badness 1902) in paragraph at lines 171--172
 \OT1/ptm/m/n/12 tos ob-ti-dos em re-po-sit[]orios p[]ublicos no site
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--190
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--190
-[] \OT1/ptm/m/n/12 re-turn[] re-gis-ter-Coun-ter + re-gis-te-rA-dress
- []
-
-[3] (BASE.bbl
+(BASE.bbl
 Underfull \hbox (badness 3343) in paragraph at lines 22--26
 \OT1/ptm/m/n/12 Oriented Ap-pro-ach to HDL- Test-bench
  []
@@ -802,27 +800,29 @@ Underfull \hbox (badness 3657) in paragraph at lines 48--50
 []\OT1/ptm/m/n/12 D. L. Miller-Karlow and E. J. Go-lin.
  []
 
-) [4] (BASE.aux) ) 
+[4]) [5
+
+] (BASE.aux) ) 
 Here is how much of TeX's memory you used:
- 4359 strings out of 493323
- 54478 string characters out of 3137315
- 243939 words of memory out of 3000000
- 7821 multiletter control sequences out of 15000+200000
- 33674 words of font info for 79 fonts, out of 3000000 for 9000
+ 4396 strings out of 493323
+ 54997 string characters out of 3137315
+ 242939 words of memory out of 3000000
+ 7855 multiletter control sequences out of 15000+200000
+ 45993 words of font info for 107 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,12n,35p,531b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Nova pasta (2)/LaTexCompiler/fonts/enc/dvips/base/8r.enc}
-<D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/
-Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Nova 
-pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Nova past
-a (2)/LaTexCompiler/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Nova pas
-ta (2)/LaTexCompiler/fonts/type1/urw/symbol/usyr.pfb><D:/Nova pasta (2)/LaTexCo
-mpiler/fonts/type1/urw/times/utmb8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/
-type1/urw/times/utmr8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on BASE.pdf (4 pages, 98846 bytes).
+ 27i,12n,35p,477b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Nova pasta (2)/LaTexCompiler/fonts/enc/dvips/base/8r.enc}<D:/
+Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Nova
+ pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Nova past
+a (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Nova pasta (2
+)/LaTexCompiler/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Nova pasta (
+2)/LaTexCompiler/fonts/type1/urw/symbol/usyr.pfb><D:/Nova pasta (2)/LaTexCompil
+er/fonts/type1/urw/times/utmb8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type
+1/urw/times/utmr8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on BASE.pdf (5 pages, 102429 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
