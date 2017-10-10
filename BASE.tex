@@ -67,7 +67,7 @@ No paradigma de programação dominante atualmente OOP(\textit{Object-Oriented P
 
 O léxico de um programa representa um investimento substancial para uma empresa de software, portanto, sua importância deve preservada e elevada ao longo do tempo, para aproveitar ao máximo seus efeitos e benéficos na compreensão do programa \cite{Antoniol2007}.
 
-	\subsection{O Que é Uma HDL?}
+	\subsection{Hardware Description Language (HDL)}
 %\quad HDVL (Hardware Description and Verification Language), podemos abstrair como um único ambiente para design e verificação de sistemas digitais, em \cite{Flake} uma HDVL representa hardware digital em vários níveis de abstração.
 
 \quad Uma descrição HDL(\textit{Hardware Description Language}) é uma representação precisa que pode ser usada para documentar, comunicar e simular o projeto \cite{Miller-Karlow}.
@@ -117,23 +117,30 @@ Uma exemplificação é dada a partir de um trecho de código mostrado na \texti
 \textcolor{blue}{\quad always\_comb begin}\\
 \textcolor{black}{\qquad regPC $<$= (regCounter + regAddress)} \textcolor{blue}{$<<$} \textcolor{green}{2};\\
 \textcolor{blue}{\quad end}\\
-\textcolor{blue}{endmodule}: nextAdrres\\
+\textcolor{blue}{endmodule}: nextAddress\\
 \begin{center}
 {\footnotesize Listing 2: Extracted Vocabulary of Listing 1}
 \end{center}}
 {\footnotesize
-\textcolor{blue}{$<$module} \textcolor{red}{\,name=} ``\textcolor{purple}{nextAddress}"\textcolor{blue}{$>$}\\
-\textcolor{blue}{\quad$<$param$>$}\\
-\textcolor{blue}{\qquad$<$field} \textcolor{red}{type=}``\textcolor{purple}{input logic[7:0]}"\textcolor{red}{\,name=}\\\textcolor{black}{\qquad ``}\textcolor{purple}{regCounter}" \textcolor{blue}{/$>$}\\
-\textcolor{blue}{\qquad$<$field} \textcolor{red}{type=}``\textcolor{purple}{input logic[7:0]}"\textcolor{red}{\,name=}\\\textcolor{black}{\qquad ``}\textcolor{purple}{regAddress}" \textcolor{blue}{/$>$}\\
-\textcolor{blue}{\qquad$<$field} \textcolor{red}{type=}``\textcolor{purple}{output logic[7:0]}"\textcolor{red}{\,name=} ``\textcolor{purple}{regPC}" \textcolor{blue}{/$>$}\\
-\textcolor{blue}{\quad$<$/param$>$}\\
-\textcolor{blue}{\quad$<$comment} \textcolor{red}{cmm=}``\textcolor{purple}{the module nextAddress returns the next address of the 2-bit offset program}"\textcolor{blue}{/$>$}\\
-\textcolor{blue}{$<$/module$>$}}\\
+\textcolor{blue}{$<$mdl} \textcolor{red}{\,name=} ``\textcolor{purple}{nextAddress}"\textcolor{blue}{$>$}\\
+\textcolor{blue}{\quad$<$prm$>$}\\
+\textcolor{blue}{\qquad$<$fld} \textcolor{red}{type=}``\textcolor{purple}{input logic[7:0]}"\textcolor{red}{\,name=}\\\textcolor{black}{\qquad ``}\textcolor{purple}{regCounter}" \textcolor{blue}{/$>$}\\
+\textcolor{blue}{\qquad$<$fld} \textcolor{red}{type=}``\textcolor{purple}{input logic[7:0]}"\textcolor{red}{\,name=}\\\textcolor{black}{\qquad ``}\textcolor{purple}{regAddress}" \textcolor{blue}{/$>$}\\
+\textcolor{blue}{\qquad$<$fld} \textcolor{red}{type=}``\textcolor{purple}{output logic[7:0]}"\textcolor{red}{\,name=} ``\textcolor{purple}{regPC}" \textcolor{blue}{/$>$}\\
+\textcolor{blue}{\quad$<$/prm$>$}\\
+\textcolor{blue}{\quad$<$cmt} \textcolor{red}{cmm=}``\textcolor{purple}{the module nextAddress returns the next address of the 2-bit offset program}"\textcolor{blue}{/$>$}\\
+\textcolor{blue}{$<$/mdl$>$}}\\
 
 Como pode ser notado no resultado da extração do vocabulário, a estruturação dos dados segue fielmente a modelagem original do problema, assim sendo a partir do vocabulário pode-se recriar uma entidade complementar a original.
 
-Sendo $\mathbb{S}$ o conjunto de todo o código fonte descrito por HDL, seja $\alpha$ um elemento deste conjunto, temos que o vocabulário de hardware é definido como  a imagem da função $F(\alpha)$, onde $im(F) = \mathbb{V}$ é o agrupamento dos dados na forma real da modelagem destes dados. Assim $F: \mathbb{S}\rightarrow\mathbb{V}$
+Notamos que a definição formal de Santos em \cite{Santos2015} sobre vocabulário de software, aplica-se igualmente ao vocabulário de hardware, assim chegamos a definição formal de vocabulário de hardware:
+
+(2) \textit{Hardware Vocabulary definition}: Nós definimos \textit{Hardware Vocabulary} como um multiconjunto de \textit{Strings}, isto é, uma aplicação $V:$ $\mathbb{S}\rightarrow\mathbb{N}$, que mapeia \textit{Strings} para números naturais. Elementos de um vocabulário são chamados \textit{termos}. Para qualquer termo $t$, $V(t)$ representa o número de ocorrências do termo $t$ no vocabulário $V$. Se $V(t)>0$ dizemos que $t$ é um termo do vocabulário.
+
+Como um exemplo considere o trecho de código em \textit{Listing 1}. De acordo com nossa definição o \textit{Vocabulário de Hardware} pode ser expresso como o seguinte multconjunto de termos:\\
+
+$V: 2'regCounter + 2'regAddress + 2'regPC + 2'nextAddress$
+
 
 	\section{SystemVerilog Vocabulary Extractor}
 
@@ -152,11 +159,11 @@ Afim de validarmos a ferramenta calculamos uma porcentagem de extracão que melh
 	\hline
 	module     & 90\% \\
 	\hline
-	class 	   & 95\% \\
+	class 	   & 98\% \\
 	\hline
 	interface  & 90\% \\
 	\hline
-	function   & 90\% \\
+	function   & 100\% \\
 	\hline
 	task       & 90\% \\
 	\hline

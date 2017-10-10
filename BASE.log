@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  10 OCT 2017 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  10 OCT 2017 19:27
 entering extended mode
 **./BASE.tex
 (BASE.tex
@@ -745,25 +745,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--133
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
+Underfull \hbox (badness 1769) in paragraph at lines 140--141
+[]\OT1/ptm/m/n/12 Como um exem-plo con-si-dere o tre-cho de
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 140--141
+\OT1/ptm/m/n/12 defini[][]ao o \OT1/ptm/m/it/12 Vo-ca-bul[]ario de Hard-ware \O
+T1/ptm/m/n/12 pode
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
 []\OT1/ptm/b/n/17.28 SystemVerilog Vo-ca-bu-lary
  []
 
 [3]
-Underfull \hbox (badness 1418) in paragraph at lines 171--172
+Underfull \hbox (badness 1418) in paragraph at lines 178--179
 []\OT1/ptm/m/n/12 Devido a di-fi-cul-dade para en-con-trar pro-je-
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 171--172
+Underfull \hbox (badness 2142) in paragraph at lines 178--179
 \OT1/ptm/m/n/12 tos \OT1/ptm/m/it/12 open-source \OT1/ptm/m/n/12 re-a-li-za-mos
  tes-tes com pro-je-
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 171--172
+Underfull \hbox (badness 1902) in paragraph at lines 178--179
 \OT1/ptm/m/n/12 tos ob-ti-dos em re-po-sit[]orios p[]ublicos no site
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 (BASE.bbl
 Underfull \hbox (badness 3343) in paragraph at lines 22--26
@@ -790,7 +809,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--33
 \OT1/ptm/m/n/12 ci-fi-ca-tion, and Ve-ri-fi-ca-tion Lan-guage.
  []
 
-
+[4]
 Underfull \hbox (badness 3989) in paragraph at lines 41--46
 []\OT1/ptm/m/n/12 J. D. M. DAIG-NE-AULT.  RAI-SING
  []
@@ -800,29 +819,28 @@ Underfull \hbox (badness 3657) in paragraph at lines 48--50
 []\OT1/ptm/m/n/12 D. L. Miller-Karlow and E. J. Go-lin.
  []
 
-[4]) [5
+) [5
 
 ] (BASE.aux) ) 
 Here is how much of TeX's memory you used:
- 4396 strings out of 493323
- 54997 string characters out of 3137315
+ 4400 strings out of 493323
+ 55020 string characters out of 3137315
  242939 words of memory out of 3000000
  7855 multiletter control sequences out of 15000+200000
- 45993 words of font info for 107 fonts, out of 3000000 for 9000
+ 48514 words of font info for 111 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,12n,35p,477b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,12n,35p,499b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Nova pasta (2)/LaTexCompiler/fonts/enc/dvips/base/8r.enc}<D:/
 Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Nova
  pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Nova past
 a (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Nova pasta (2
 )/LaTexCompiler/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Nova pasta (
-2)/LaTexCompiler/fonts/type1/urw/symbol/usyr.pfb><D:/Nova pasta (2)/LaTexCompil
-er/fonts/type1/urw/times/utmb8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type
-1/urw/times/utmr8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on BASE.pdf (5 pages, 102429 bytes).
+2)/LaTexCompiler/fonts/type1/urw/times/utmb8a.pfb><D:/Nova pasta (2)/LaTexCompi
+ler/fonts/type1/urw/times/utmr8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on BASE.pdf (5 pages, 99386 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
