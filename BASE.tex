@@ -7,25 +7,52 @@
 \usepackage{amssymb}
 \usepackage{pslatex}
 \usepackage[dvipsnames]{xcolor}
+\usepackage{float}
 \usepackage[a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm,
 		headsep=1cm, footskip=2cm]{geometry}
 \usepackage[brazil]{babel}
 
 \begin{document}
-	\title{SystemVerilog Vocabulary Extractor}
-	\author{Filipe C. Cavalcanti\\ Leandro de S. Albuquerque\\
-	Orientador: Tio Kat}
+	\title{Hardware As Software}
+	\author{Santos, Katyusco de F.\\
+	\texttt{emailDekat}
+	\and
+	Cavalcanti, Filipe C.\\
+	\texttt{filipe.cazuza@academico.ifpb.edu.br}
+	\and
+	Albuquerque, Leandro de S.\\
+	\texttt{leandro.albuquerque@academico.ifpb.edu.br}}
 	\maketitle
 	
 	\section{ABSTRACT}
+	\quad Since the creation of the first HDLs (Hardware Description Language) to the present day, more and more the development of digital systems resembles and approaches the development of software systems. As the complexity in hardware development has increased exponentially, the developing methodologies of such systems also evolve extensively.
 	
+The process of developing digital systems since the emergence of HDLs, uses concepts and paradigms of software engineering, in the beginning procedural programming and nowadays OOP (Object-Oriented Programming).
+
+Software vocabulary consists of the set of repeated or unique terms that make up identifiers and which are present in the texts of the comments. Being the vocabulary or lexicon, one of the main sources of information in the scope of software engineering.
+
+In this paper we defined the term \textit{Hardware Vocabulary}, in addition to extracting this vocabulary belonging to the SystemVerilog projects and demonstrating the similarity between HDLs and programming languages.
+\begin{quote}
+\textbf{keywords}: HDL; SystemVerilog; Software Vocabulary; Hardware Vocabulary; Digital Systems.
+\end{quote}
+
 	\section{RESUMO}
-	\quad Desde a criação da primeira HDL até os presentes dias, cada vez mais o desenvolvimento de sistemas digitais se assemelha e aproxima-se a codificações de programas descritos em linguagem de programação  
-	
+	\quad Desde a criação das primeiras HDLs(Hardware Description Language) até os presentes dias, cada vez mais o desenvolvimento de sistemas digitais se assemelha ao desenvolvimento de sistemas de software. Como a complexidade no desenvolvimento de sistemas digitais aumentou exponencialmente, as metodologias em desenvolvimento de tais sistemas também evolui extensivamente. %50 palavras
+
+O processo de desenvolvimento de sistemas digitais desde o surgimento das HDLs, usa de conceitos e paradigmas da engenharia de software, indo da programação procedural até OOP(Object-Oriented Programming). %81 palavras
+
+O vocabulário de software consiste no conjunto de termos repetidos ou únicos que compõem identificadores e que estão presentes no textos dos comentários. Sendo o vocabulário ou léxico, uma das principais fontes de informação no âmbito da engenharia de software. %122 palavras
+
+
+Neste trabalho demonstramos a similaridade entre HDLs e linguagens de programação, definimos o termo \textit{Hardware Vocabulary} baseado na definição de \textit{Vocabulario de Software}, além de extrair o \textit{Vocabulário de Hardware} pertencente à projetos descritos em SystemVerilog. %156 palavras
+\begin{quote}
+\textbf{Palavras-chave}: HDL; SystemVerilog; Software Vocabulary; Hardware Vocabulary; sistemas digitais.
+\end{quote}
+
 % Keywords: HDL, SystemVerilog, Software Vocabulary, Hardware Vocabulary, sistemas digitais  
 	\section{Introdução}
 
-\quad Verilog foi uma das primeiras linguagens para descrição de hardware (HDL) a ser inventada em meados da década de 80. Até então o tamanho típico dos projetos era entre 5 a 10 mil portas lógicas. O método de concepção dos circuitos utilizava-se de esquema gráfico, e a simulação começava a ser  ferramenta essencial para verificação\cite{sutherland2006}. Com a evolução da tecnologia de descrição e verificação de hardware, em 2002 surge SystemVerilog. 
+\quad Verilog foi uma das primeiras linguagens para descrição de hardware (HDL) a ser inventada em meados da década de 80. Até então o tamanho típico dos projetos era entre 5 a 10 mil portas lógicas. O método de concepção dos circuitos utilizava-se de esquema gráfico, e a simulação começava a ser  ferramenta essencial para verificação\cite{sutherland2006}. Com a evolução da tecnologia de descrição e verificação de hardware, em 2002 surge significante melhoria de Verilog que é SystemVerilog \cite{sutherland2006}. 
 
 A partir disto, como a complexidade de sistemas digitais modernos aumentou exponencialmente, tanto que, o tamanho dos atuais projetos chega a ordem dos bilhões de portas lógicas. Assim as metodologias de projetos em sistemas digitais estão evoluindo extensivamente \cite{Marc-Andre} e \cite{Hahanov2008}.
 
@@ -43,7 +70,7 @@ Umas das principais fontes de informações em um código fonte no âmbito da en
 
 O vocabulário de software também denominado de léxico do código em \cite{Biggers2011}, consiste no conjunto de termos repetidos ou únicos que compõem identificadores e que estão presentes no textos dos comentários\cite{Abebe2009}.
 
-Usando os princípios da engenharia reversa como uma coleção de metodologias e técnicas capazes de realizar a extração e abstração de informações\cite{Santos2009}, propõe-se neste trabalho a extração do vocabulário pertencentes a projetos de hardware descritos em SystemVerilog, e usando a definição formal de Santos em \cite{Santos2015} sobre vocabulário de software para embasar e fundamentar o termo \textit{Hardware Vocabulary}. 
+Usando os princípios da engenharia reversa como uma coleção de metodologias e técnicas capazes de realizar a extração e abstração de informações\cite{Santos2009}, propõe-se neste trabalho apresentar a similaridade entre HDLs e linguagens de programação, usando a definição formal de Santos em \cite{Santos2015} sobre vocabulário de software para embasar e fundamentar o termo \textit{Hardware Vocabulary}, e extrair vocabulário pertencentes a projetos de hardware descritos em SystemVerilog. 
 
 	\section{Background}
 \quad Graças aos atuais projetos eletrônicos baseado em HDL, metodologias e ferramentas para simulação, síntese, verificação, modelagem física e teste pós-fabricação agora estão bem inseridos e são essenciais para designers digitais \cite{Navabi2015}. 
@@ -131,7 +158,7 @@ Como pode ser notado no resultado da extração do vocabulário, a estruturaçã
 
 Notamos que a definição formal de Santos em \cite{Santos2015} sobre vocabulário de software, aplica-se igualmente ao vocabulário de hardware, assim chegamos a definição formal de vocabulário de hardware:
 
-(2) \textit{Hardware Vocabulary definition}: Nós definimos \textit{Hardware Vocabulary} como um multiconjunto de \textit{Strings}, isto é, uma aplicação $V:$ $\mathbb{S}\rightarrow\mathbb{N}$, que mapeia \textit{Strings} para números naturais. Elementos de um vocabulário são chamados \textit{termos}. Para qualquer termo $t$, $V(t)$ representa o número de ocorrências do termo $t$ no vocabulário $V$. Se $V(t)>0$ dizemos que $t$ é um termo do vocabulário.
+(2) \textit{Hardware Vocabulary definition}: Definimos \textit{Hardware Vocabulary} como um multiconjunto de \textit{Strings}, isto é, uma aplicação $V:$ $\mathbb{S}\rightarrow\mathbb{N}$, que mapeia \textit{Strings} para números naturais. Elementos de um vocabulário são chamados \textit{termos}. Para qualquer termo $t$, $V(t)$ representa o número de ocorrências do termo $t$ no vocabulário $V$. Se $V(t)>0$ dizemos que $t$ é um termo do vocabulário.
 
 Como um exemplo considere o trecho de código em \textit{Listing 1}. De acordo com nossa definição o \textit{Vocabulário de Hardware} pode ser expresso como o seguinte multconjunto de termos:\\
 
@@ -143,6 +170,8 @@ $V: 2'regCounter + 2'regAddress + 2'regPC + 2'nextAddress$
 \quad Com a necessidade de analisar e extrair o vocabulário de hardware pertencentes a projetos descritos em SystemVerlog, desenvolvemos o ferramental \textit{Hardware Vocabulary Tool}.
 
 A implementação desta ferramenta, baseia-se em entidades que são capazes de processar o vocabulário de hardware dos principais elementos estruturais básicos de SystemVerilog. Usando de delegação montam-se as estruturas mais complexas da linguagem (classes, interfaces, módulos e pacotes) Ex.: Uma classe SystemVerilog é uma entidade que possui um nome e compõem-se principalmente de atributos, funções, tasks, comentários.
+
+Para posterior análise, o resultado da extração é salvo em arquivo .xml seguindo a estruturação da \textit{Listing 2}, contendo a extração de todas as entidades estruturais da linguagem.
 	
 Afim de validarmos a ferramenta calculamos uma porcentagem de extracão que melhor represente a eficiência do software proposto, elaborando um design genérico com todas as estruturas possíveis da linguagem SistemVerilog. Os resultados obtidos são apresentados na tabela abaixo:
 
@@ -171,12 +200,11 @@ Afim de validarmos a ferramenta calculamos uma porcentagem de extracão que melh
 \end{table}
 Os resultados apresentados na tabela acima mostram que, calculando uma média aritmética, ou seja, deduzindo que o vocabulário de hardware pertencente a cada entidade é aproximadamente igual, o percentual de extração total atualmente é de 94\% dado um código genérico.
 
-Devido a dificuldade para encontrar projetos \textit{opensource} realizamos testes com projetos obtidos em repositórios públicos no site \textit{https://github.com}, afim de aferir o Tempo de Extração (TE), em milissegundo (ms), e a Quantidade de Memória(QM) usada durante a extração. Os resultados obtidos estão expostos na tabela abaixo:
+Fizemos uma busca por projetos de hardware \textit{opensource} em repositórios públicos no site \textit{https://github.com}, afim de aferir o Tempo de Execução da Extração (TE) em milissegundo (ms), Quantidade de Linhas (QL) e o Tamanho do Projeto(TP) medido em Bytes. Os resultados obtidos estão expostos na tabela 2.
 	
-\begin{table*}[!htpb]
-
+\begin{table*}[h]
 \centering
-\caption{Extração do \textit{Vocabulário de Hardware} de outros projetos.}
+\caption{Extração do \textit{Vocabulário de Hardware} de projetos \textit{opensource}.}
 	\begin{tabular}{l|c|c|c}
 	\hline
 	Nome do Projeto & TP(Bytes)& QL & TE (ms)\\
@@ -204,19 +232,18 @@ Devido a dificuldade para encontrar projetos \textit{opensource} realizamos test
 	\hline
 	\end{tabular}
 
-\end{table*}	
-	
-	
-Os resultados apresentados na tabela acima mostra que ...
-	
+\end{table*}		
 	
 	\section{Resultados e Discussões}
   
-Cada Desenvolvedor tem seu vocabulário, que é a acumulação de termos manipulados (adicionados, removidos e substituídos) durante suas contribuições no projeto \cite{Santos2015}. Isso equivale à desenvolvimento de hardware, uma vez citada a similaridade entre as HDLs e as linguagens de programação.
+\quad Cada Desenvolvedor tem seu vocabulário, que é a acumulação de termos manipulados (adicionados, removidos e substituídos) durante suas contribuições no projeto \cite{Santos2015}. Isso equivale à desenvolvimento de hardware, uma vez citada a similaridade entre as HDLs e as linguagens de programação.
 
 Com a definição de \textit{Vocabulário de Hardware} formalizada, abrimos então um novo campo de estudos para a engenharia de software. A análise e extração de informação pertencentes ao vocabulário de projetos de hardware descritos por alguma HDL.
 
-Por fim, levantada todas as semelhanças do processo de desenvolvimento de hardware ao software, concluímos que toda analise, extração, métricas e conclusões feitas em cima do vocabulário de software são equivalentes quando aplicadas ao Vocabulário de Hardware.
+Levantada todas as semelhanças do processo de desenvolvimento de hardware ao software, concluímos que toda analise, extração, métricas e conclusões feitas com base no vocabulário de software são equivalentes quando aplicadas ao Vocabulário de Hardware.
+
+Então com o \textit{Vocabulário de Hardware} é possível encontrar  \textit{bugs}, identificar uma arquitetura, fazer métricas sobre o código e identificar especialista. Com todo o arcabouço de informações e teorias que a engenharia de software desenvolveu ao longo dos anos baseando-se em léxico e vocabulário de software.
+
 	\bibliography{refs}
 	\bibliographystyle{abbrv}
 	

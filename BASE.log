@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  11 OCT 2017 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.28)  11 OCT 2017 19:47
 entering extended mode
 **./BASE.tex
 (BASE.tex
@@ -536,12 +536,20 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
+("D:\Nova pasta (2)\LaTexCompiler\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count110
+\float@exts=\toks21
+\float@box=\box54
+\@float@everytoks=\toks22
+\@floatcapt=\box55
+)
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks23
 )
 ("D:\Nova pasta (2)\LaTexCompiler\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
@@ -553,9 +561,9 @@ Package ifvtex Info: VTeX not detected.
 ("D:\Nova pasta (2)\LaTexCompiler\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count110
-\Gm@cntv=\count111
-\c@Gm@tempcnt=\count112
+\Gm@cnth=\count111
+\Gm@cntv=\count112
+\c@Gm@tempcnt=\count113
 \Gm@bindingoffset=\dimen121
 \Gm@wd@mp=\dimen122
 \Gm@odd@mp=\dimen123
@@ -564,7 +572,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen126
 \Gm@layouthoffset=\dimen127
 \Gm@layoutvoffset=\dimen128
-\Gm@dimlist=\toks22
+\Gm@dimlist=\toks24
 
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\geometry\geometry.cfg"))
 ("D:\Nova pasta (2)\LaTexCompiler\tex\generic\babel\babel.sty"
@@ -582,7 +590,7 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 ("D:\Nova pasta (2)\LaTexCompiler\tex\generic\babel\babel.def"
 File: babel.def 2017/05/19 3.10 Babel common definitions
-\babel@savecnt=\count113
+\babel@savecnt=\count114
 \U@D=\dimen129
 )
 \l@brazil = a dialect from \language\l@portuges 
@@ -590,38 +598,38 @@ Package babel Info: Making " an active character on input line 145.
 )) (BASE.aux)
 \openout1 = `BASE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 14.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 14
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 15
 .
 
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 ("D:\Nova pasta (2)\LaTexCompiler\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count114
+\scratchcounter=\count115
 \scratchdimen=\dimen130
-\scratchbox=\box54
-\nofMPsegments=\count115
-\nofMParguments=\count116
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count117
+\scratchbox=\box56
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count118
 \MPscratchDim=\dimen131
-\MPnumerator=\count118
-\makeMPintoPDFobject=\count119
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks26
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -657,141 +665,136 @@ LaTeX Font Info:    ... okay on input line 14.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 18
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 25
 .
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\psnfss\ot1ptmcm.fd"
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 18
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 25
 .
 
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\psnfss\omlptmcm.fd"
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 18
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 25
 .
 
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\psnfss\omxpsycm.fd"
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
 
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 
 ("D:\Nova pasta (2)\LaTexCompiler\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 
-Underfull \hbox (badness 1424) in paragraph at lines 46--47
-\OT1/ptm/m/n/12 informa[][]oes [10], prop[]oe-se neste tra-ba-lho a
+Underfull \hbox (badness 1895) in paragraph at lines 30--31
+\OT1/ptm/m/n/12 ra-digms of soft-ware en-gi-ne-e-ring, in the be-
  []
 
-
-Underfull \vbox (badness 3460) has occurred while \output is active []
-
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 
-Underfull \hbox (badness 4403) in paragraph at lines 62--63
+Underfull \hbox (badness 4403) in paragraph at lines 89--90
 \OT1/ptm/m/n/12 al-mente OOP(\OT1/ptm/m/it/12 Object-Oriented Pro-gram-ming\OT1
 /ptm/m/n/12 ),
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 71--72
+Underfull \hbox (badness 1540) in paragraph at lines 98--99
  \OT1/ptm/m/n/12 Uma descri[][]ao HDL(\OT1/ptm/m/it/12 Hardware Des-crip-tion
  []
 
-
-Underfull \hbox (badness 4518) in paragraph at lines 85--86
+[2]
+Underfull \hbox (badness 4518) in paragraph at lines 112--113
 \OT1/ptm/m/n/12 de soft-ware atrela-se ao fato do cons-tante
  []
 
-
-Underfull \vbox (badness 4647) has occurred while \output is active []
-
- [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--117
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--129
+Underfull \hbox (badness 10000) in paragraph at lines 135--144
 
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 148--156
+
+ []
+
+[3]
+Underfull \hbox (badness 1769) in paragraph at lines 163--164
 []\OT1/ptm/m/n/12 Como um exem-plo con-si-dere o tre-cho de
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 136--137
+Underfull \hbox (badness 3815) in paragraph at lines 163--164
 \OT1/ptm/m/n/12 defini[][]ao o \OT1/ptm/m/it/12 Vo-ca-bul[]ario de Hard-ware \O
 T1/ptm/m/n/12 pode
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 []\OT1/ptm/b/n/17.28 SystemVerilog Vo-ca-bu-lary
  []
 
-[3]
-Underfull \hbox (badness 1418) in paragraph at lines 174--175
-[]\OT1/ptm/m/n/12 Devido a di-fi-cul-dade para en-con-trar pro-je-
+
+Underfull \hbox (badness 1622) in paragraph at lines 203--204
+[]\OT1/ptm/m/n/12 Fizemos uma busca por pro-je-tos de hard-
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 174--175
-\OT1/ptm/m/n/12 tos \OT1/ptm/m/it/12 open-source \OT1/ptm/m/n/12 re-a-li-za-mos
- tes-tes com pro-je-
+Underfull \hbox (badness 1057) in paragraph at lines 203--204
+\OT1/ptm/m/n/12 ware \OT1/ptm/m/it/12 open-source \OT1/ptm/m/n/12 em re-po-sit[
+]orios p[]ublicos no
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 174--175
-\OT1/ptm/m/n/12 tos ob-ti-dos em re-po-sit[]orios p[]ublicos no site
- []
-
-
-Overfull \hbox (3.88905pt too wide) in paragraph at lines 180--206
+Overfull \hbox (6.88905pt too wide) in paragraph at lines 208--234
  [][] 
  []
 
-(BASE.bbl
-Underfull \hbox (badness 1107) in paragraph at lines 219--1
-\OT1/ptm/m/n/12 pro-cesso de de-sen-vol-vi-mento de hard-ware ao
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4]
+Underfull \hbox (badness 1917) in paragraph at lines 245--246
+[]\OT1/ptm/m/n/12 Ent[]ao com o \OT1/ptm/m/it/12 Vo-ca-bul[]ario de Hard-ware [
+]\OT1/ptm/m/n/12 e
  []
+
+(BASE.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 3343) in paragraph at lines 22--26
@@ -818,36 +821,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--33
 \OT1/ptm/m/n/12 ci-fi-ca-tion, and Ve-ri-fi-ca-tion Lan-guage.
  []
 
-
+[5]
 Underfull \hbox (badness 3989) in paragraph at lines 41--46
 []\OT1/ptm/m/n/12 J. D. M. DAIG-NE-AULT.  RAI-SING
  []
 
-[4]
+
 Underfull \hbox (badness 3657) in paragraph at lines 48--50
 []\OT1/ptm/m/n/12 D. L. Miller-Karlow and E. J. Go-lin.
  []
 
-) [5] (BASE.aux) ) 
+) [6
+
+] (BASE.aux) ) 
 Here is how much of TeX's memory you used:
- 4400 strings out of 493323
- 55020 string characters out of 3137315
- 246938 words of memory out of 3000000
- 7855 multiletter control sequences out of 15000+200000
- 48514 words of font info for 111 fonts, out of 3000000 for 9000
+ 4464 strings out of 493323
+ 55833 string characters out of 3137315
+ 249305 words of memory out of 3000000
+ 7911 multiletter control sequences out of 15000+200000
+ 50474 words of font info for 115 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,12n,35p,508b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Nova pasta (2)/LaTexCompiler/fonts/enc/dvips/base/8r.enc}
-<D:/Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/
-Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Nova 
-pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Nova past
-a (2)/LaTexCompiler/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Nova pas
-ta (2)/LaTexCompiler/fonts/type1/urw/times/utmb8a.pfb><D:/Nova pasta (2)/LaTexC
-ompiler/fonts/type1/urw/times/utmr8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts
-/type1/urw/times/utmri8a.pfb>
-Output written on BASE.pdf (5 pages, 101136 bytes).
+ 27i,12n,35p,570b,272s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Nova pasta (2)/LaTexCompiler/fonts/enc/dvips/base/8r.enc}<D:/
+Nova pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Nova
+ pasta (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Nova past
+a (2)/LaTexCompiler/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Nova pasta (2
+)/LaTexCompiler/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Nova pasta (
+2)/LaTexCompiler/fonts/type1/urw/courier/ucrr8a.pfb><D:/Nova pasta (2)/LaTexCom
+piler/fonts/type1/urw/times/utmb8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/t
+ype1/urw/times/utmr8a.pfb><D:/Nova pasta (2)/LaTexCompiler/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on BASE.pdf (6 pages, 115403 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
