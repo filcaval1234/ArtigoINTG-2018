@@ -7,7 +7,7 @@
 \usepackage{amssymb}
 \usepackage{pslatex}
 \usepackage[dvipsnames]{xcolor}
-\usepackage[a4paper, left=2cm, right=2cm, top=3cm, bottom=2cm,
+\usepackage[a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm,
 		headsep=1cm, footskip=2cm]{geometry}
 \usepackage[brazil]{babel}
 
@@ -25,9 +25,7 @@
 % Keywords: HDL, SystemVerilog, Software Vocabulary, Hardware Vocabulary, sistemas digitais  
 	\section{Introdução}
 
-\quad Verilog foi uma das primeiras linguagens para descrição de hardware (HDL) a ser inventada em meados da década de 80. Até então o tamanho típico dos projetos era entre 5 a 10 mil portas lógicas. 
-
-O método de concepção dos circuitos utilizava-se de esquema gráfico, e a simulação começava a ser  ferramenta essencial para verificação\cite{sutherland2006}. Com a evolução da tecnologia de descrição e verificação de hardware, em 2002 surge SystemVerilog. 
+\quad Verilog foi uma das primeiras linguagens para descrição de hardware (HDL) a ser inventada em meados da década de 80. Até então o tamanho típico dos projetos era entre 5 a 10 mil portas lógicas. O método de concepção dos circuitos utilizava-se de esquema gráfico, e a simulação começava a ser  ferramenta essencial para verificação\cite{sutherland2006}. Com a evolução da tecnologia de descrição e verificação de hardware, em 2002 surge SystemVerilog. 
 
 A partir disto, como a complexidade de sistemas digitais modernos aumentou exponencialmente, tanto que, o tamanho dos atuais projetos chega a ordem dos bilhões de portas lógicas. Assim as metodologias de projetos em sistemas digitais estão evoluindo extensivamente \cite{Marc-Andre} e \cite{Hahanov2008}.
 
@@ -92,8 +90,6 @@ A aproximação (similaridade no processo de desenvolvimento) do software ao har
 
 Em \cite{Hahanov2008} classes e módulos são coisas bastantes semelhantes, trazendo assim a possibilidade de usar classes dentro de um contexto de verificação de hardware. A partir desta similaridade, o inverso também é possível, ou seja, utilizar de conceitos e convenções de orientação a objetos na descrição de módulos.
 
-Por fim, levantada todas as semelhanças do processo de desenvolvimento de hardware ao software, concluímos que toda analise, extração, métricas e conclusões feitas em cima do vocabulário de software são equivalentes quando aplicadas ao Vocabulário de Hardware.
-
 	\subsection{Hardware Vocabulary} 
 	
 \quad Baseado fortemente pela definição formal de vocabulário de software em  \cite{Santos2015}, e embasado também por todo o levantamento feito sobre as semelhanças entre os processos de desenvolvimento entre hardware e software feitas na sessão anterior. Chegamos a primeira definição sobre vocabulário de hardware:
@@ -112,7 +108,7 @@ Uma exemplificação é dada a partir de um trecho de código mostrado na \texti
 \textcolor{gray}{/* the module nextAddress returns the}
 \textcolor{gray}{next address of the 2-bit offset program}
 \textcolor{gray}{*/}\\
-\textcolor{blue}{module} nextAddress(\\\textcolor{blue}{\qquad input logic}[\textcolor{green}{7}:\textcolor{green}{0}] regCounter,\\ \textcolor{blue}{\qquad input logic}[\textcolor{green}{7}:\textcolor{green}{0}] regAddress\\
+\textcolor{blue}{module} nextAddress(\\\textcolor{blue}{\qquad input logic}[\textcolor{green}{7}:\textcolor{green}{0}] regCounter,\\ \textcolor{blue}{\qquad input logic}[\textcolor{green}{7}:\textcolor{green}{0}] regAddress,\\
 \textcolor{blue}{\qquad output logic}[\textcolor{green}{7}:\textcolor{green}{0}] regPC);\\
 \textcolor{blue}{\quad always\_comb begin}\\
 \textcolor{black}{\qquad regPC $<$= (regCounter + regAddress)} \textcolor{blue}{$<<$} \textcolor{green}{2};\\
@@ -173,51 +169,54 @@ Afim de validarmos a ferramenta calculamos uma porcentagem de extracão que melh
 	\end{tabular}
 
 \end{table}
-Os resultados apresentados na tabela acima mostram que, calculando uma média aritmética, ou seja, deduzindo que o vocabulário de hardware pertencente a cada entidade é aproximadamente igual, o percentual de extração total atualmente é de 92\% dado um código genérico.
+Os resultados apresentados na tabela acima mostram que, calculando uma média aritmética, ou seja, deduzindo que o vocabulário de hardware pertencente a cada entidade é aproximadamente igual, o percentual de extração total atualmente é de 94\% dado um código genérico.
 
 Devido a dificuldade para encontrar projetos \textit{opensource} realizamos testes com projetos obtidos em repositórios públicos no site \textit{https://github.com}, afim de aferir o Tempo de Extração (TE), em milissegundo (ms), e a Quantidade de Memória(QM) usada durante a extração. Os resultados obtidos estão expostos na tabela abaixo:
 	
-	\begin{table}[h]
+\begin{table*}[!htpb]
+
 \centering
 \caption{Extração do \textit{Vocabulário de Hardware} de outros projetos.}
-	\begin{tabular}{l|c|c}
+	\begin{tabular}{l|c|c|c}
 	\hline
-	Projeto  & TE(ms) & QM(B)\\
+	Nome do Projeto & TP(Bytes)& QL & TE (ms)\\
 	\hline
-	zynq-sandbox     & ... & ...\\
+	ahb\_apb\_bridge\_uvm\_tb&&&\\{\footnotesize https://github.com/mayur13/UVM/tree/master/projects/ahb\_apb\_bridge\_uvm\_tb}& 122.880 & 997 & 260\\
+
 	\hline
-	uvm-utest 	   & ... & ...\\
+	apb2\_uvm\_tb&&&\\{\footnotesize https://github.com/mayur13/UVM/tree/master/projects/apb2\_uvm\_tb}     & 147.456 & 806 & 278\\
 	\hline
-	System-Verilog   & ... & ...\\
+	fpga\_fast\_serial\_sort&&&\\{\footnotesize https://github.com/Poofjunior/fpga\_fast\_serial\_sort} 	   & 49.152 & 351 & 205\\
 	\hline
-	sha3\_sv\_tb       & ... & ...\\
+	System-Verilog&&&\\{\footnotesize https://github.com/zricethezav/System-Verilog}   & 49.221.632 & 4420 & 970\\
 	\hline
-	sha3\_uvm\_tb     & ... & ...\\
+	sha3\_sv\_tb&&&\\{\footnotesize https://github.com/mayur13/SystemVerilog/tree/master/projects/sha3\_sv\_tb}       & 65.536 & 242 & 297 \\
 	\hline
-	apb2\_uvm\_tb   & ... & ...\\
+	sha3\_uvm\_tb&&&\\{\footnotesize https://github.com/mayur13/UVM/tree/master/projects/sha3\_uvm\_tb}& 176.128 & 925 & 278\\
 	\hline
-	spi\_uvm\_tb       & ... & ...\\
+	uvm-tutorial-for-candy-lovers&&&\\{\footnotesize https://github.com/cluelogic/uvm-tutorial-for-candy-lovers}  & 700.416 & 11.559 & 1.877\\
 	\hline
-	
+	spi\_uvm\_tb&&&\\{\footnotesize https://github.com/mayur13/UVM/tree/master/projects/spi\_uvm\_tb}      & 139.264 & 172 & 177\\
+	\hline
+	uvm-utest&&&\\{\footnotesize https://github.com/nosnhojn/uvm-utest}& 311.296 & 5281 & 1.379\\
+	\hline
+	zynq-sandbox&&&\\{\footnotesize https://github.com/swetland/zynq-sandbox}& 450.560 & 8671 & 546\\
+	\hline
 	\end{tabular}
 
-\end{table}	
+\end{table*}	
 	
 	
 Os resultados apresentados na tabela acima mostra que ...
 	
 	
 	\section{Resultados e Discussões}
-	
-Ao 
-
-% Representando o conjunto de todo o código fonte por S; e que cada elemento deste conjunto seja (alpha) temos que o vocabulario de hardware é definido como a imagem da função(HC) F(alpha) de tal forma que o conjunto imagem da função F seja o agrupamento dos dados na forma real da modelagem destes dados 
-
-% sendo S o conjunto de todo o código fonte, e que cada elemento deste conjunto seja (alpha) temos que o vocabulario de hardware é definido como a imagem da função F (função Extração), onde im(F) é o agrupamento dos dados na forma real da modelagem destes dados. Assim F: S -> (HC)  
-
-asdfsadfasdf
-
   
+Cada Desenvolvedor tem seu vocabulário, que é a acumulação de termos manipulados (adicionados, removidos e substituídos) durante suas contribuições no projeto \cite{Santos2015}. Isso equivale à desenvolvimento de hardware, uma vez citada a similaridade entre as HDLs e as linguagens de programação.
+
+Com a definição de \textit{Vocabulário de Hardware} formalizada, abrimos então um novo campo de estudos para a engenharia de software. A análise e extração de informação pertencentes ao vocabulário de projetos de hardware descritos por alguma HDL.
+
+Por fim, levantada todas as semelhanças do processo de desenvolvimento de hardware ao software, concluímos que toda analise, extração, métricas e conclusões feitas em cima do vocabulário de software são equivalentes quando aplicadas ao Vocabulário de Hardware.
 	\bibliography{refs}
 	\bibliographystyle{abbrv}
 	
