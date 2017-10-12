@@ -14,18 +14,21 @@
 
 \begin{document}
 	\title{Hardware As Software}
-	\author{Santos, Katyusco de F.\\
-	\texttt{emailDekat}
+	\author{Katyusco de F. Santos(1)\\
 	\and
-	Cavalcanti, Filipe C.\\
-	\texttt{filipe.cazuza@academico.ifpb.edu.br}
+	Filipe C. Cavalanti(2)\\
 	\and
-	Albuquerque, Leandro de S.\\
-	\texttt{leandro.albuquerque@academico.ifpb.edu.br}}
+	Leandro de S. Albuquerque(3)\\
+	\texttt{Instituto Federal Da Paraíba}\\
+	\texttt{Campus Campina Grande}\\
+	\texttt{(1)katyusco.santos@ifpb.edu.br}\\
+	\texttt{(2)filipe.cazuza@academico.ifpb.edu.br}\\
+	\texttt{(3)leandro.albuquerque@academico.ifpb.edu.br}}
+	\date{16 de abril de 2018}
 	\maketitle
 	
 	\section{ABSTRACT}
-	\quad Since the creation of the first HDLs (Hardware Description Language) to the present day, more and more the development of digital systems resembles and approaches the development of software systems. As the complexity in hardware development has increased exponentially, the developing methodologies of such systems also evolve extensively.
+	\quad Since the creation of the first HDLs (Hardware Description Language) to the present day, more and more the development of digital systems resembles the development of software systems. As the complexity in the development of digital systems has increased exponentially, the developing methodologies of such systems also evolves extensively.
 	
 The process of developing digital systems since the emergence of HDLs, uses concepts and paradigms of software engineering, in the beginning procedural programming and nowadays OOP (Object-Oriented Programming).
 
@@ -43,10 +46,9 @@ O processo de desenvolvimento de sistemas digitais desde o surgimento das HDLs, 
 
 O vocabulário de software consiste no conjunto de termos repetidos ou únicos que compõem identificadores e que estão presentes no textos dos comentários. Sendo o vocabulário ou léxico, uma das principais fontes de informação no âmbito da engenharia de software. %122 palavras
 
-
 Neste trabalho demonstramos a similaridade entre HDLs e linguagens de programação, definimos o termo \textit{Hardware Vocabulary} baseado na definição de \textit{Vocabulario de Software}, além de extrair o \textit{Vocabulário de Hardware} pertencente à projetos descritos em SystemVerilog. %156 palavras
 \begin{quote}
-\textbf{Palavras-chave}: HDL; SystemVerilog; Software Vocabulary; Hardware Vocabulary; sistemas digitais.
+\textbf{Palavras-chave}: HDL; SystemVerilog; Software Vocabulary; Hardware Vocabulary; Sistemas Digitais.
 \end{quote}
 
 % Keywords: HDL, SystemVerilog, Software Vocabulary, Hardware Vocabulary, sistemas digitais  
@@ -54,7 +56,7 @@ Neste trabalho demonstramos a similaridade entre HDLs e linguagens de programaç
 
 \quad Verilog foi uma das primeiras linguagens para descrição de hardware (HDL) a ser inventada em meados da década de 80. Até então o tamanho típico dos projetos era entre 5 a 10 mil portas lógicas. O método de concepção dos circuitos utilizava-se de esquema gráfico, e a simulação começava a ser  ferramenta essencial para verificação\cite{sutherland2006}. Com a evolução da tecnologia de descrição e verificação de hardware, em 2002 surge significante melhoria de Verilog que é SystemVerilog \cite{sutherland2006}. 
 
-A partir disto, como a complexidade de sistemas digitais modernos aumentou exponencialmente, tanto que, o tamanho dos atuais projetos chega a ordem dos bilhões de portas lógicas. Assim as metodologias de projetos em sistemas digitais estão evoluindo extensivamente \cite{Marc-Andre} e \cite{Hahanov2008}.
+A partir disto, como a complexidade de sistemas digitais modernos aumentou exponencialmente, tanto que, o tamanho dos atuais projetos chega a ordem dos bilhões de portas lógicas. As metodologias de projetos em sistemas digitais estão evoluindo extensivamente \cite{Marc-Andre} e \cite{Hahanov2008}.
 
 Com tal avanço, elevou-se o nível de abstração no desenvolvimento de hardware por meio de uma linguagem de descrição e verificação de hardware (HDVL), de tal forma que, o uso de ferramentas de análise de informações que antes eram somente do escopo da engenharia de software, pode ser estendido também para o desenvolvimento de sistemas digitais.
 
@@ -78,7 +80,7 @@ Usando os princípios da engenharia reversa como uma coleção de metodologias e
 Nos últimos anos as linguagens de descrição e verificação de hardware tornaram-se tão importantes para a modelagem de sistemas digitais, quanto as linguagens de programação o são para a engenharia de software. 
 	
 	\subsection{Software Vocabulary}
-\quad Santos em \cite{Santos2009}, define que vocabulário de código fonte compreende as cadeias de caracteres que identificam os elementos estruturais e as palavras que compõem as sentenças dos comentários de um código fonte. 
+\quad Santos em \cite{Santos2009}, define que vocabulário de software compreende as cadeias de caracteres que identificam os elementos estruturais e as palavras que compõem as sentenças dos comentários de um código fonte. 
 
 Dentro dos campos de estudo da engenharia de software outro termo bastante conhecido e isomorfo a \textit{Software Vocabulary} é o \textit{léxico do código} que em \cite{Biggers2011} são os elementos que nomeiam as entidades estruturais da linguagem além dos comentários escritos em linguagem natural.
 
@@ -93,17 +95,14 @@ No paradigma de programação dominante atualmente OOP(\textit{Object-Oriented P
 O léxico de um programa representa um investimento substancial para uma empresa de software, portanto, sua importância deve preservada e elevada ao longo do tempo, para aproveitar ao máximo seus efeitos e benéficos na compreensão do programa \cite{Antoniol2007}.
 
 	\subsection{Hardware Description Language (HDL)}
-%\quad HDVL (Hardware Description and Verification Language), podemos abstrair como um único ambiente para design e verificação de sistemas digitais, em \cite{Flake} uma HDVL representa hardware digital em vários níveis de abstração.
 
-\quad Uma descrição HDL(\textit{Hardware Description Language}) é uma representação precisa que pode ser usada para documentar, comunicar e simular o projeto \cite{Miller-Karlow}.
+\quad Uma HDL(\textit{Hardware Description Language}) descreve o funcionamento do circuito, a sua concepção e organização e ainda o testa para verificar seu funcionamento por meio de simulação\cite{Miller-Karlow}.
 
 As HDLs modernas são fundamentais para o desenvolvimento de sistemas digitais, possibilitando suas descrições de forma estrutural, comportamental e nos últimos anos, seguindo conceitos básicos de orientação a objetos \cite{Hahanov2008}, fornecendo assim um mecanismo efetivo para o desenvolvimento de projetos à medida que evoluem da abstração para a realidade \cite{Navabi2015}.
 
 Algumas HDls evoluíram de tal forma que, além de descrever hardware, passaram também a englobar todo um ambiente de verificação. Tais linguagens foram tipificadas de HDVL (Hardware Description and Verification Language).
 
-Devido a grande quantidade de HDLs disponíveis, limitamos o escopo deste trabalho à análise de informações somente para projetos descritos em SystemVerilog.
-
-A escolha dessa linguagem deve-se ao seu grande uso na industria VLSI (\textit{Very Large Scale Integration} \cite{Kumar2014} e também por SystemVerilog ser uma HDVL \cite{IEEEComputerSociety2013}, ampliando assim nosso horizonte de informações, uma vez que temos dados tanto sobre descrição quanto verificação de hardware.
+Limitamos o escopo deste trabalho à análise de informações somente para projetos descritos em SystemVerilog. A escolha dessa linguagem deve-se ao seu grande uso na industria VLSI (\textit{Very Large Scale Integration} \cite{Kumar2014} e também por SystemVerilog ser uma HDVL \cite{IEEEComputerSociety2013}, ampliando assim nosso horizonte de informações, uma vez que temos dados tanto sobre descrição quanto verificação de hardware.
 
 %--------------apagar essa parada!!!! DATTEBAYO
 %A sintaxe pesada de uma HDL apresenta um problema no desenvolvimento de projetos, pois descreve um sistema complexo e multifacetado por meio de uma representação textual unidimencional, dificultando a abstração de \textit{\textbf{muitos}} aspetos do projeto.
@@ -138,7 +137,7 @@ Uma exemplificação é dada a partir de um trecho de código mostrado na \texti
 \textcolor{blue}{module} nextAddress(\\\textcolor{blue}{\qquad input logic}[\textcolor{green}{7}:\textcolor{green}{0}] regCounter,\\ \textcolor{blue}{\qquad input logic}[\textcolor{green}{7}:\textcolor{green}{0}] regAddress,\\
 \textcolor{blue}{\qquad output logic}[\textcolor{green}{7}:\textcolor{green}{0}] regPC);\\
 \textcolor{blue}{\quad always\_comb begin}\\
-\textcolor{black}{\qquad regPC $<$= (regCounter + regAddress)} \textcolor{blue}{$<<$} \textcolor{green}{2};\\
+\textcolor{black}{\qquad regPC = (regCounter + regAddress)} \textcolor{blue}{$<<$} \textcolor{green}{2};\\
 \textcolor{blue}{\quad end}\\
 \textcolor{blue}{endmodule}: nextAddress\\
 \begin{center}
@@ -162,7 +161,7 @@ Notamos que a definição formal de Santos em \cite{Santos2015} sobre vocabulár
 
 Como um exemplo considere o trecho de código em \textit{Listing 1}. De acordo com nossa definição o \textit{Vocabulário de Hardware} pode ser expresso como o seguinte multconjunto de termos:\\
 
-$V: 2'regCounter + 2'regAddress + 2'regPC + 2'nextAddress$
+$V= 2'regCounter + 2'regAddress + 2'regPC + 2'nextAddress$
 
 
 	\section{SystemVerilog Vocabulary Extractor}
